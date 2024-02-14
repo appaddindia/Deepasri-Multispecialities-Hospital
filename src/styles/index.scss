@@ -1,0 +1,67 @@
+@import "~bootstrap/scss/bootstrap";
+@import "swiper/css/bundle";
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+@import "node_modules/react-18-image-lightbox/src/style.css";
+@import "/public/assets/scss/main.scss";
+
+.centetbody{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .bodestes{
+    text-align: left;
+  }
+  .descerbodt{
+    text-align: left;
+    display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  }
+  .descerbodtwhy{
+    text-align: left;
+  }
+  .classtestimonial{
+    padding-bottom: 100px;
+  }
+  .asdsjb{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    display: flex;
+    align-items: center;
+  }
+  .element-with-line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4; /* Number of lines to show */
+  }
+  @media (max-width: 992px) {
+    .centetbody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .bodestes{
+        text-align: center;
+        font-size: 18px;
+      }
+      .descerbodt{
+        text-align: center;display: -webkit-box;
+        -webkit-line-clamp: 3; /* Number of lines to display */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .classtestimonial{
+        padding-bottom: 200px;
+      }
+      .descerbodtwhy{
+        text-align: center;
+      }
+      .asdsjb{
+        height: 350px;
+      }
+  }
