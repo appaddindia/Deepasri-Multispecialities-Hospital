@@ -143,7 +143,7 @@ const Blog = () => {
               <div className="blog-link text-center">
                 <span>
                   Join our Community for Get Update :
-                  <Link href="/blog-details">
+                  <Link href="/blog">
                     Join our Community
                     <i className="fa-regular fa-arrow-right"></i>
                   </Link>

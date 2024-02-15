@@ -8,6 +8,7 @@ import NavTab from "../../common/nav-tab";
 import Team from "../../common/team";
 import FooterFour from "../../layout/footer/footer-4";
 import ServiceArea from "../home/home/service-area";
+import Blog from "../home/home-2/blog";
 
 const About = () => {
   return (
@@ -20,7 +21,14 @@ const About = () => {
       <Counter /> */}
       <ServiceArea />
       <NavTab />
-      <Specialists />
+      {/* <Specialists /> */}
+      <section
+        className="grey-bg"
+        style={{ backgroundImage: `url(/assets/img/shape/shape-bg-07.png)` }}
+      >
+        <Blog />
+      </section>
+
       <FooterFour />
     </>
   );
