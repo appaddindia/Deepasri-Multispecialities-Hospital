@@ -50,7 +50,7 @@ const RecentPost = () => {
                   >
                     <img
                       style={{ width: "100px", aspectRatio: "5/4" }}
-                      src={item.img}
+                      src={item.imgs}
                       alt="blog-sidebar"
                     />
                   </Link>

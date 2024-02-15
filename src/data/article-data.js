@@ -3,6 +3,7 @@ const article_data = [
   {
     id: 1,
     img: "/assets/photo/aa4.jpg",
+    imgs: "/assets/photo/aaaa4.jpg",
     slider_img: [],
     user: "BIOXLAB",
     date: " Dec 28, 2023",
@@ -34,6 +35,7 @@ const article_data = [
   {
     id: 2,
     img: "/assets/photo/aa5.jpg",
+    imgs: "/assets/photo/aaaa5.jpg",
     slider_img: [],
     user: "BIOXLAB",
     date: " Sep 26, 2023",
@@ -69,6 +71,7 @@ const article_data = [
   {
     id: 3,
     img: "/assets/photo/aa2.jpg",
+    imgs: "/assets/photo/aaaa2.jpg",
     slider_img: [],
     user: "BIOXLAB",
     date: " Aug 18, 2023",
@@ -102,6 +105,7 @@ const article_data = [
   {
     id: 3,
     img: "/assets/photo/aa3.jpg",
+    imgs: "/assets/photo/aaaa3.jpg",
     slider_img: [],
     user: "BIOXLAB",
     date: " Jun 15, 2023",
