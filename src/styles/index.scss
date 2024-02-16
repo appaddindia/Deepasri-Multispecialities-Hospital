@@ -76,4 +76,13 @@
       .asdsjb{
         height: 350px;
       }
+      .manga{
+        width: 90%;
+        padding-left: 80px;
+      }
+  }
+  @media (max-width: 992px){
+    .manga{
+      padding-left: 170px;
+    }
   }

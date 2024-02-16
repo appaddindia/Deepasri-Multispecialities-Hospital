@@ -55,10 +55,10 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="tp-section text-center">
-                  <span className="tp-section__sub-title sub-title-white left-line-white right-line-white mb-25">
-                    Work Gallery
-                  </span>
-                  <h3 className="tp-section__title title-white mb-70">
+                  <h3
+                    style={{ fontSize: "28px" }}
+                    className="tp-section__title title-white mb-70"
+                  >
                     Deepasri Multispeciality Hospital Gallery
                   </h3>
                 </div>

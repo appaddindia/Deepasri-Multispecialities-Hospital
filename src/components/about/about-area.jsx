@@ -43,13 +43,19 @@ const AboutArea = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-8 col-12">
+            <div
+              style={{ display: "flex", alignItems: "center" }}
+              className="col-xl-6 col-lg-8 col-12"
+            >
               <div
                 className="about-content about-align mb-60 wow fadeInRight"
                 data-wow-delay=".3s"
               >
                 <div className="tp-section">
-                  <h3 className="tp-section__title ab-title mb-25">
+                  <h3
+                    style={{ fontSize: "28px" }}
+                    className="tp-section__title ab-title mb-25"
+                  >
                     BEST HOSPITAL FOR YOUR GOOD HEALTH
                   </h3>
                   <p className=" mr-20 mb-20">

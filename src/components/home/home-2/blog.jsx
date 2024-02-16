@@ -86,7 +86,12 @@ const Blog = () => {
                 <span className="tp-section__sub-title left-line mb-25">
                   Waht’s New
                 </span>
-                <h3 className="tp-section__title mb-65">Blog & Article</h3>
+                <h3
+                  style={{ fontSize: "28px" }}
+                  className="tp-section__title mb-65"
+                >
+                  Blog & Article
+                </h3>
               </div>
             </div>
             <div className="col-md-4 col-12">

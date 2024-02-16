@@ -132,9 +132,9 @@ const HeaderTwo = () => {
                       </button>
 
                       <div className="tp-cart-icon-area">
-                        <Link href="">
+                        {/* <Link href="">
                           <i className="fa-solid fa-basket-shopping"></i>
-                        </Link>
+                        </Link> */}
                         {/* <div className="tpcarticon">
                           <ul>
                             <li>

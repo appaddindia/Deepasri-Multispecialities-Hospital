@@ -65,15 +65,15 @@ function Serpostbox({ name, img, tittle, link, service, des }) {
                             </span>
                           </div> */}
                   <h3
-                    style={{ marginTop: "-20px" }}
+                    style={{ marginTop: "-20px", fontSize: "28px" }}
                     className="postbox__title mb-20"
                   >
-                    <Link href="/blog-details">{tittle}</Link>
+                    <Link href="">{tittle}</Link>
                   </h3>
                   <div className="postbox__text mb-20">{des}</div>
                   <div className="postbox__read-more">
-                    <Link href={link} className="tp-btn">
-                      Reade more
+                    <Link href="" className="tp-btn">
+                      Book Appoitment
                     </Link>
                   </div>
                 </div>

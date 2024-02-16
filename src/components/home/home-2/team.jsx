@@ -8,11 +8,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const setting = {
   slidesPerView: 4,
   autoplay: {
-    delay: 6000,
+    delay: 4000,
+    disableOnInteraction: true,
   },
+
   breakpoints: {
     1400: {
-      slidesPerView: 4,
+      slidesPerView: 5,
     },
     1200: {
       slidesPerView: 4,
@@ -32,12 +34,12 @@ const setting = {
   },
   // Navigation arrows
   navigation: {
-    nextEl: ".team-nxt",
-    prevEl: ".team-prv",
+    nextEl: ".blog-nxt",
+    prevEl: ".blog-prv",
   },
 };
 
-const Team = () => {
+const Team = ({ bg_img }) => {
   const [isLoop, setIsLoop] = useState(false);
   useEffect(() => {
     setIsLoop(true);
@@ -47,13 +49,28 @@ const Team = () => {
       <section className="team-area pb-45">
         <div className="container">
           <div className="p-relative">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="tp-section text-center">
-                  <span className="tp-section__sub-title left-line right-line mb-25">
-                    OUr Team
+            <div className="row align-items-center">
+              <div className="col-md-8 col-12">
+                <div className="tp-section">
+                  <span className="tp-section__sub-title left-line mb-25">
+                    OUR TEAM
                   </span>
-                  <h3 className="tp-section__title mb-40">Our Specialist</h3>
+                  <h3
+                    style={{ fontSize: "28px" }}
+                    className="tp-section__title mb-65"
+                  >
+                    Our Specialist
+                  </h3>
+                </div>
+              </div>
+              <div className="col-md-4 col-12">
+                <div className="blog-arrow d-flex align-items-center">
+                  <div className="blog-prv">
+                    <i className="fa-regular fa-arrow-left"></i>
+                  </div>
+                  <div className="blog-nxt">
+                    <i className="fa-regular fa-arrow-right"></i>
+                  </div>
                 </div>
               </div>
             </div>
@@ -61,7 +78,7 @@ const Team = () => {
               {...setting}
               modules={[Navigation]}
               loop={isLoop}
-              className="swiper-container tp-team-active wow fadeInUp"
+              className="swiper-container blog-active"
               data-wow-delay=".3s"
             >
               {team_home_two.map((item) => (

@@ -1,15 +1,59 @@
 import VideoPopup from "../../../modals/video-popup";
 import Link from "next/link";
-import React, { useState } from "react";
+import team_home_two from "../../../data/team-home-2";
+
+import React, { useEffect, useState } from "react";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import serviceinfo from "../../services/service-details/serviceinfo";
+
+// slider setting
+const setting = {
+  slidesPerView: 4,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: true,
+  },
+
+  breakpoints: {
+    1400: {
+      slidesPerView: 8,
+    },
+    1200: {
+      slidesPerView: 6,
+    },
+    992: {
+      slidesPerView: 5,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    576: {
+      slidesPerView: 4,
+    },
+    0: {
+      slidesPerView: 3,
+    },
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".team-nxt",
+    prevEl: ".team-prv",
+  },
+};
 
 const About = () => {
+  const [isLoop, setIsLoop] = useState(false);
+  useEffect(() => {
+    setIsLoop(true);
+  }, []);
   // about content data
   const about_content = {
     about_bg: "/assets/img/shape/shape-bg-05.png",
     about_img: "/assets/photo/firstmain.png",
     popup_video: "",
     about_thumb: "/assets/img/about/about-bg-03.png",
-    title: "BEST HOSPITAL FOR YOUR GOOD HEALTH",
+    title: "Deepasri Multispecialities Nurturing Comprehensive Health",
     sub_title: "About",
     des_1: (
       <>
@@ -31,15 +75,16 @@ const About = () => {
         leave our hospital.
       </>
     ),
-    btn: "Talk with Expart",
+    btn: "Talk with Expert",
 
     // booking data
     booking_bg: "/assets/photo/mainimage.png",
     b_sub_title: "Quick Help Here",
     b_title: (
       <>
-        Feel free to contact us; our team<br></br> is glad to assist you
-        promptly.
+        Feel free to reach out at any time our highly<br></br> dedicated and
+        experienced team is always ready<br></br> to provide prompt assistance
+        tailored to your needs.
       </>
     ),
     b_btn: "Book Now",
@@ -74,6 +119,49 @@ const About = () => {
       >
         <div className="about-wrapper">
           <div className="container">
+            <Swiper
+              {...setting}
+              navigation={{
+                nextEl: ".testi-button-next",
+                prevEl: ".testi-button-prev",
+              }}
+              modules={[Navigation]}
+              loop={isLoop}
+              className="swiper-container tp-team-active wow fadeInUp "
+              data-wow-delay=".3s"
+            >
+              {serviceinfo.map((item) => (
+                <SwiperSlide key={item.id}>
+                  <div className="swiper-slide">
+                    <div
+                      style={{ padding: "0px 2px" }}
+                      className="team-item mb-30 "
+                    >
+                      <div className="team-item__thumb mb-30">
+                        <img
+                          style={{
+                            width: "50%",
+                            borderRadius: "50%",
+                            border: "3px solid #0e63ff",
+                          }}
+                          src={item.icon}
+                          alt="team-thumb"
+                        />
+                      </div>
+                      <div className="team-item__content">
+                        <h5
+                          style={{ fontSize: "14px" }}
+                          className="team-item__title mb-15"
+                        >
+                          <Link href={item.link}>{item.name}</Link>
+                        </h5>
+                        {/* <span>{item.tittle}</span> */}
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
             <div className="row">
               <div className="col-xl-6 col-lg-12 col-12">
                 <div
@@ -90,12 +178,15 @@ const About = () => {
                       <i className="fa-solid fa-play"></i>
                     </button> */}
                   </div>
-                  <div className="about-thumb-shape d-none d-md-block">
+                  <div className="about-thumb-shape d-md-block manga">
                     <img src={about_thumb} alt="about-shape" />
                   </div>
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-12 col-12">
+              <div
+                style={{ display: "flex", alignItems: "center" }}
+                className="col-xl-6 col-lg-12 col-12"
+              >
                 <div
                   className="about-content ml-60 mb-60 wow fadeInRight"
                   data-wow-delay=".3s"
@@ -104,7 +195,12 @@ const About = () => {
                     <span className="tp-section__sub-title left-line mb-10">
                       {sub_title}
                     </span>
-                    <h3 className="tp-section__title mb-25">{title}</h3>
+                    <h3
+                      style={{ fontSize: "26px" }}
+                      className="tp-section__title mb-25"
+                    >
+                      {title.toUpperCase()}
+                    </h3>
                     <i>{des_1}</i>
                     <p style={{ marginTop: "-20px" }} className=" mr-20 mb-15 ">
                       {dex_2}
@@ -136,7 +232,12 @@ const About = () => {
                         {b_sub_title}
                       </span>
                     </div>
-                    <h2 className="cta-title mb-30">{b_title}</h2>
+                    <h2
+                      style={{ fontSize: "22px" }}
+                      className="cta-title mb-30"
+                    >
+                      {b_title}
+                    </h2>
                     <div className="cta-btn">
                       <button className="tp-btn-second">{b_btn}</button>
                     </div>

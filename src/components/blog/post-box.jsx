@@ -152,8 +152,11 @@ const PostBox = () => {
                           <i className="fa-light fa-eye"></i> {article.views}
                         </span>
                       </div>
-                      <h3 className="postbox__title mb-40">
-                        <Link href="/blog-details">{article.title}</Link>
+                      <h3
+                        style={{ fontSize: "28px" }}
+                        className="postbox__title mb-30"
+                      >
+                        <Link href="/blog">{article.title}</Link>
                       </h3>
                       <div
                         style={{ marginTop: "-20px" }}

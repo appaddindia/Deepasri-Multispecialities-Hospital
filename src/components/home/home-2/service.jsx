@@ -1,6 +1,7 @@
 import service_data from "../../../data/service";
 import Link from "next/link";
 import React from "react";
+import serviceinfo from "../../services/service-details/serviceinfo";
 
 const Service = () => {
   return (
@@ -28,7 +29,7 @@ const Service = () => {
             </div>
           </div>
           <div className="row">
-            {service_data.map((item) => (
+            {/* {service_data.map((item) => (
               <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 col-6">
                 <div
                   style={{ position: "relative" }}
@@ -58,7 +59,45 @@ const Service = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            ))} */}
+            {serviceinfo.map((item) => {
+              return (
+                item.id < 7 && (
+                  <div key={item.id} className="col-lg-4 col-md-6 col-12 ">
+                    <div
+                      className={`services-thumb-box blue mb-30 wow fadeInRight`}
+                      data-wow-delay=".3s"
+                    >
+                      <div className="services-thumb-box__thumb fix">
+                        <img src={item.img} alt="services-thumb" />
+                      </div>
+                      <div className="services-thumb-box__text-area d-flex align-items-center grey-bg">
+                        <div className="services-thumb-box__icon mr-20">
+                          <img
+                            style={{
+                              width: "48px",
+                              marginBottom: "10px",
+                              padding: "5px",
+                            }}
+                            src={item.icon}
+                          ></img>
+                        </div>
+                        <div className="services-thumb-box__content">
+                          <h5 className="services-thumb-box__title">
+                            <Link style={{ fontSize: "16px" }} href={item.link}>
+                              {item.name}
+                            </Link>
+                          </h5>
+                          <Link className="tp-btn-link" href={item.link}>
+                            Read More
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )
+              );
+            })}
           </div>
         </div>
       </section>
