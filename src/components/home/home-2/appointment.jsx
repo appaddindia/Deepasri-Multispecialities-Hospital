@@ -63,7 +63,7 @@ const Appointment = () => {
                           <span>
                             24/7 Emergency Service :
                             <a href="tel:+88978897">
-                              +88 978 897 6545
+                              94817 87736
                               <i className="fa-regular fa-arrow-right"></i>
                             </a>
                           </span>

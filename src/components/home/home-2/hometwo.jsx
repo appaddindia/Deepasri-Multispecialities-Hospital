@@ -11,11 +11,13 @@ import Testimonial from "../../../common/testimonial";
 import Blog from "./blog";
 import Specialists from "../../../common/specialists";
 import Abouts from "../home/about";
+import Slider from "../../../common/Slider";
 
 const HomeTwo = () => {
   return (
     <>
       {/* <HeroBanner /> */}
+      <Slider />
       <About />
       <Service />
       <Gallery />

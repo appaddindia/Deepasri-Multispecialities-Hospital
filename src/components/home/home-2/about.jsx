@@ -6,8 +6,8 @@ const About = () => {
   // about content data
   const about_content = {
     about_bg: "/assets/img/shape/shape-bg-05.png",
-    about_img: "/assets/img/about/about-bg-02.png",
-    popup_video: "https://www.youtube.com/watch?v=-BpXNPHiB2U",
+    about_img: "/assets/photo/firstmain.png",
+    popup_video: "",
     about_thumb: "/assets/img/about/about-bg-03.png",
     title: "BEST HOSPITAL FOR YOUR GOOD HEALTH",
     sub_title: "About",
@@ -34,7 +34,7 @@ const About = () => {
     btn: "Talk with Expart",
 
     // booking data
-    booking_bg: "/assets/img/shape/shape-bg-04.png",
+    booking_bg: "/assets/photo/mainimage.png",
     b_sub_title: "Quick Help Here",
     b_title: (
       <>
@@ -43,7 +43,7 @@ const About = () => {
       </>
     ),
     b_btn: "Book Now",
-    b_img: "/assets/img/shape/logo-shape-1.png",
+    b_img: "/assets/photo/logomin.png",
   };
   const {
     about_bg,
@@ -141,7 +141,11 @@ const About = () => {
                       <button className="tp-btn-second">{b_btn}</button>
                     </div>
                     <div className="cta-shape d-none d-md-block">
-                      <img src={b_img} alt="cta-logo-shape" />
+                      <img
+                        style={{ width: "60px", marginBottom: "10px" }}
+                        src={b_img}
+                        alt="cta-logo-shape"
+                      />
                     </div>
                   </div>
                 </div>

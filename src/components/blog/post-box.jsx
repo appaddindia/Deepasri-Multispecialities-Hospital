@@ -66,14 +66,15 @@ const PostBox = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-7 col-md-12">
               <div className="postbox pr-0 pb-40">
-                {article_data.map((article) => (
+                {article_data.map((article, i) => (
                   <article
                     key={article.id}
                     className="postbox__item format-image mb-60 transition-3"
+                    id={`${i + 1}blog`}
                   >
                     {article.img && (
                       <div className="postbox__thumb w-img mb-35">
-                        <Link href="">
+                        <Link href="/">
                           <img src={article.img} alt="blog-thumg" />
                         </Link>
                       </div>
@@ -109,7 +110,7 @@ const PostBox = () => {
                           key={i}
                           className="postbox__thumb postbox__video p-relative w-img mb-35"
                         >
-                          <Link href="/blog-details">
+                          <Link href="">
                             <img src={item.video_tum} alt="" />
                           </Link>
 
