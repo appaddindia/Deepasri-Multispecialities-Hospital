@@ -75,11 +75,11 @@ const Gallery = () => {
                     <img src={item.img} alt="gallery-thumb" />
                     <div className="gallery-item__content">
                       <h4 className="gallery-item__title">
-                        <Link href="/portfolio-details">{item.title}</Link>
+                        <Link href="/gallery">{item.title}</Link>
                       </h4>
                       <span>
                         <i className="fa-solid fa-tag"></i>
-                        <Link href="/services-details">Services</Link>
+                        <Link href="/gallery">Services</Link>
                       </span>
                     </div>
                   </div>
