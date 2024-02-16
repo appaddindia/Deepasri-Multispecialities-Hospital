@@ -199,10 +199,7 @@ const FooterTwo = () => {
                         <a href="#">Terms and conditions</a>
                       </li>
                       <li>
-                        <a href="#">Privacy policy</a>
-                      </li>
-                      <li>
-                        <a href="#">Pricing</a>
+                        <a href="/privancy">Privacy policy</a>
                       </li>
                     </ul>
                   </div>

@@ -200,13 +200,12 @@ const FooterFour = ({ style_2 = false }) => {
                   <div className="footer-widget__copyright-info info-direction">
                     <ul className="d-flex align-items-center">
                       <li>
-                        <a href="#">Terms and conditions</a>
+                        <Link href="/termsandconditions">
+                          Terms and conditions
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Privacy policy</a>
-                      </li>
-                      <li>
-                        <a href="#">Pricing</a>
+                        <Link href="/privancy">Privacy policy</Link>
                       </li>
                     </ul>
                   </div>
