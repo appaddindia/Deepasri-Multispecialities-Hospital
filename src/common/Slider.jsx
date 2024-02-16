@@ -4,6 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const banner = [
   {
+    img1: "/assets/photo/Banner.png",
+    img2: "/assets/photo/Banner.png",
+  },
+  {
     img1: "/assets/photo/banner3.png",
     img2: "/assets/photo/banner3.png",
   },
