@@ -97,14 +97,6 @@ const Team = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className="team-arrow">
-              <div className="team-prv">
-                <i className="fa-regular fa-arrow-left"></i>
-              </div>
-              <div className="team-nxt">
-                <i className="fa-regular fa-arrow-right"></i>
-              </div>
-            </div>
           </div>
         </div>
       </section>

@@ -4,20 +4,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const banner = [
   {
-    img1: "/assets/photo/banner3.png",
-    img2: "/assets/photo/banner3.png",
-  },
-  {
-    img1: "/assets/photo/banner.png",
-    img2: "/assets/photo/banner.png",
-  },
-  {
     img1: "/assets/photo/banner2.png",
     img2: "/assets/photo/banner2.png",
   },
   {
+    img1: "/assets/photo/banner3.png",
+    img2: "/assets/photo/banner3.png",
+  },
+  {
     img1: "/assets/photo/banner1.png",
     img2: "/assets/photo/banner1.png",
+  },
+  {
+    img1: "/assets/photo/banner4.png",
+    img2: "/assets/photo/banner4.png",
   },
 ];
 
@@ -84,6 +84,18 @@ function Slider() {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      {/* <div
+        style={{ padding: "0px 100px", width: "100%", position: "relative" }}
+        className="team-arrow"
+      >
+        <div className="team-prv">
+          <i className="fa-regular fa-arrow-left"></i>
+        </div>
+        <div className="team-nxt">
+          <i className="fa-regular fa-arrow-right"></i>
+        </div>
+      </div> */}
     </div>
   );
 }
