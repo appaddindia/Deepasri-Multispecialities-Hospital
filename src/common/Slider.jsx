@@ -5,19 +5,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const banner = [
   {
     img1: "/assets/photo/banner2.png",
-    img2: "/assets/photo/banner2.png",
+    img2: "/assets/photo/mob2.png",
   },
   {
     img1: "/assets/photo/banner3.png",
-    img2: "/assets/photo/banner3.png",
+    img2: "/assets/photo/mob3.png",
   },
   {
     img1: "/assets/photo/banner1.png",
-    img2: "/assets/photo/banner1.png",
+    img2: "/assets/photo/mob1.png",
   },
   {
     img1: "/assets/photo/banner4.png",
-    img2: "/assets/photo/banner4.png",
+    img2: "/assets/photo/mob4.png",
   },
 ];
 
