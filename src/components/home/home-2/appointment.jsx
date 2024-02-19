@@ -42,7 +42,7 @@ const Appointment = () => {
                       </div>
                       <div className="col-lg-6">
                         <div className="visitor-form__input">
-                          <input type="date" />
+                          <input placeholder="Enter the Date" type="date" />
                         </div>
                       </div>
                       <div className="col-lg-12">
