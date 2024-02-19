@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 import Wrapper from "../layout/wrapper";
 import HomeTwo from "../components/home/home-2/hometwo";
 import LayoutTwo from "../layout/layout-2";
+import Mobilelinks from "../common/mobilelinks";
 
 const index = () => {
   return (
@@ -12,6 +13,7 @@ const index = () => {
       <LayoutTwo>
         <SEO pageTitle="Home Two" />
         <HomeTwo />
+        <Mobilelinks />
       </LayoutTwo>
     </Wrapper>
   );

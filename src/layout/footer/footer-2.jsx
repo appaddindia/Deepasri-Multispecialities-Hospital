@@ -196,10 +196,12 @@ const FooterTwo = () => {
                   <div className="footer-widget__copyright-info info-direction">
                     <ul className="d-flex align-items-center">
                       <li>
-                        <a href="#">Terms and conditions</a>
+                        <Link href="/termsandconditions">
+                          Terms and conditions
+                        </Link>
                       </li>
                       <li>
-                        <a href="/privancy">Privacy policy</a>
+                        <Link href="/privancy">Privacy policy</Link>
                       </li>
                     </ul>
                   </div>

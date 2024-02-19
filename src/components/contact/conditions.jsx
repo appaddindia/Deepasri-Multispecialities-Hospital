@@ -84,7 +84,7 @@ function Conditions() {
               </h4>
               <p>
                 These Terms and Conditions govern the use of Deepasri
-                Multispecialities Hospital's services and facilities. By
+                Multispecialities Hospitals services and facilities. By
                 accessing our healthcare services, you agree to abide by these
                 terms and acknowledge the policies outlined herein.
               </p>
@@ -92,14 +92,14 @@ function Conditions() {
                 Patient Responsibilities and Conduct
               </h4>
               <p>
-                Patients using Deepasri Multispecialities Hospital's services
-                are expected to provide accurate and complete information
-                regarding their health history, current condition, and personal
-                details. It is the responsibility of the patient to follow
-                medical advice, treatment plans, and adhere to hospital rules
-                and regulations. Disruptive or disrespectful behavior towards
-                staff, other patients, or any form of misconduct that interferes
-                with the smooth operation of the hospital may result in the
+                Patients using Deepasri Multispecialities Hospitals services are
+                expected to provide accurate and complete information regarding
+                their health history, current condition, and personal details.
+                It is the responsibility of the patient to follow medical
+                advice, treatment plans, and adhere to hospital rules and
+                regulations. Disruptive or disrespectful behavior towards staff,
+                other patients, or any form of misconduct that interferes with
+                the smooth operation of the hospital may result in the
                 termination of services.
               </p>
               <h4 className="contactform__title mb-20">
@@ -114,7 +114,7 @@ function Conditions() {
                 is expected within the specified timeframe. Failure to settle
                 outstanding balances may result in the application of interest,
                 late fees, or the involvement of debt collection agencies. It is
-                the patient's responsibility to verify insurance coverage and
+                the patients responsibility to verify insurance coverage and
                 promptly address any discrepancies.
               </p>
               <h4 className="contactform__title mb-20">

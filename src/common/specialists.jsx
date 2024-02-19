@@ -97,7 +97,14 @@ const Specialists = () => {
                       >
                         {item.title}
                       </h4>
-                      <p className="descerbodtwhy" style={{ color: "gray" }}>
+                      <p
+                        className="descerbodtwhy"
+                        style={{
+                          color: "gray",
+                          fontSize: "14px",
+                          lineHeight: "22px",
+                        }}
+                      >
                         {item.des}
                       </p>
                     </div>

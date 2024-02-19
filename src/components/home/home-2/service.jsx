@@ -29,7 +29,7 @@ const Service = () => {
             </div>
           </div>
           <div className="row">
-            {/* {service_data.map((item) => (
+            {service_data.map((item) => (
               <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 col-6">
                 <div
                   style={{ position: "relative" }}
@@ -59,8 +59,8 @@ const Service = () => {
                   </div>
                 </div>
               </div>
-            ))} */}
-            {serviceinfo.map((item) => {
+            ))}
+            {/* {serviceinfo.map((item) => {
               return (
                 item.id < 7 && (
                   <div key={item.id} className="col-lg-4 col-md-6 col-12 ">
@@ -97,7 +97,7 @@ const Service = () => {
                   </div>
                 )
               );
-            })}
+            })} */}
           </div>
         </div>
       </section>
