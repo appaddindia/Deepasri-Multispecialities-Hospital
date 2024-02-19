@@ -1,3 +1,4 @@
+import Mobilelinks from "../common/mobilelinks";
 import About from "../components/about/about";
 import SEO from "../components/seo";
 import Wrapper from "../layout/wrapper";
@@ -8,6 +9,7 @@ const index = () => {
     <Wrapper>
       <SEO pageTitle="About" />
       <About />
+      <Mobilelinks />
     </Wrapper>
   );
 };
