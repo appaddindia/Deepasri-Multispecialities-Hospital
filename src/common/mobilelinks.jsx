@@ -29,7 +29,6 @@ function Mobilelinks() {
             <div style={{ width: "100%" }} className="about-content__btn">
               <a
                 style={{ width: "100%", padding: "20px 8px", marginTop: "0px" }}
-                href="/about"
                 className="tp-btn"
               >
                 Call Us

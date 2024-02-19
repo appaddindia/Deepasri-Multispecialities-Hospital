@@ -80,7 +80,7 @@ const Specialists = () => {
             </div>
             <div className="row">
               {choose.map((item) => (
-                <div key={item.id} className="col-xl-3 col-md-6 col-6">
+                <div key={item.id} className="col-xl-3 col-md-6 col-12">
                   <div
                     className="tp-choose__item ml-25 mb-30 wow fadeInUp"
                     data-wow-delay=".8s"
