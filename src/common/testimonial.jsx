@@ -26,7 +26,7 @@ const ts_text = [
     des: (
       <>
         Good service to patients from all the staff very good hospital, since
-        past 8 year I'm coming to this hospital all the doctors and staffs are
+        past 8 year Im coming to this hospital all the doctors and staffs are
         very good strongly recommend this hospital.
       </>
     ),
