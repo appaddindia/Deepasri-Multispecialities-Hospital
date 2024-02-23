@@ -71,9 +71,9 @@ const Gallery = () => {
             <div className="row">
               {gallery_content_data.map((item) => (
                 <div key={item.id} className={item.class}>
-                  <div className="gallery-item p-relative mb-30">
+                  <div className="gallery-item  mb-30">
                     <img src={item.img} alt="gallery-thumb" />
-                    <div className="gallery-item__content">
+                    {/* <div className="gallery-item__content">
                       <h4 className="gallery-item__title">
                         <Link href="/gallery">{item.title}</Link>
                       </h4>
@@ -81,7 +81,7 @@ const Gallery = () => {
                         <i className="fa-solid fa-tag"></i>
                         <Link href="/gallery">Services</Link>
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ))}

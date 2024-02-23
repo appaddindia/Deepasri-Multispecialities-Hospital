@@ -1,3 +1,4 @@
+import Mobilelinks from "../common/mobilelinks";
 import Checkout from "../components/checkout";
 import SEO from "../components/seo";
 import Wrapper from "../layout/wrapper";
@@ -8,6 +9,7 @@ const index = () => {
     <Wrapper>
       <SEO pageTitle="Checkout" />
       <Checkout />
+      <Mobilelinks />
     </Wrapper>
   );
 };

@@ -7,16 +7,16 @@ import { FreeMode, Navigation, Thumbs } from "swiper";
 // ts img
 const ts_img = [
   {
-    img: "assets/photo/tt1.jpg",
+    img: "assets/photo/R (2).jpg",
   },
   {
-    img: "assets/photo/tt3.jpg",
-  },
-  {
-    img: "assets/photo/tt4.jpg",
+    img: "assets/photo/s_name_pic (5).jpg",
   },
   {
     img: "assets/photo/tt2.jpg",
+  },
+  {
+    img: "assets/photo/tt4.jpg",
   },
 ];
 
@@ -25,57 +25,47 @@ const ts_text = [
   {
     des: (
       <>
-        Really appreciate the help provided to me during my tough times by this
-        Deepasri Multispecialities Hospital. My entire family was admitted in
-        the same week for the same problem of COVID, and the staff was really
-        helpful and took care of everyone so well. This was really helpful for
-        us as a family too. And we recovered very fast with the help of
-        wonderful team over there.
+        Good service to patients from all the staff very good hospital, since
+        past 8 year I'm coming to this hospital all the doctors and staffs are
+        very good strongly recommend this hospital.
       </>
     ),
-    name: "Mrs. Sumira",
-    title: "March 19, 2020",
+    name: "punith gowda v",
+    title: "a week ago",
   },
   {
     des: (
       <>
-        I got admitted for Knee Replacement in Deepasri Hospital. We were
-        provided homely atmosphere at Deepasri Hospital. Consultants & Staffs
-        were excellent. Anaesthesia department helped us a lot during and after
-        the Operation. Physiotherapists assisted us to start walking on day two
-        after the operation. This Hospital is really a blessing for our region.
+        I admitted my mother in law for left hip fracture due to which undergone
+        treatment at deepasri . Quality of procedure, service at hospital is
+        very satisfactory. All the Staffs and doctors are humble and
+        supportive..
       </>
     ),
-    name: "Mr. Rajeev",
-    title: "April 06, 2020",
+    name: "shyla rv",
+    title: "a week ago",
   },
   {
     des: (
       <>
-        Behaviour of staffs are very polite. Doctors are treating patient in
-        very satisfied manner during COVID Crisis. They explain all health
-        issues to patient representative very clear cut. Also, hustle fee
-        appointment for COVID patients are adopted by hospital. Cleanliness is
-        good standard. I recomend Deepasri Multispecialities Hospital to
-        everyone best medical services.
+        Very good services and treatment very professional doctors and staff
+        happy with treatment and good clean hygiene atmosphere good
+        infrastructure very happy recommended to every one
       </>
     ),
-    name: "Mr. Bipin",
-    title: "May 28, 2020",
+    name: "Tapan kumar",
+    title: "a week ago",
   },
   {
     des: (
       <>
-        Really appreciate the help provided to me during my tough times by this
-        Deepasri Multispecialities Hospital. My entire family was admitted in
-        the same week for the same problem of COVID, and the staff was really
-        helpful and took care of everyone so well. This was really helpful for
-        us as a family too. And we recovered very fast with the help of
-        wonderful team over there.
+        Visiting since 2 yrs quality of treatment and service from staff and
+        management is very satisfactory they guide us very well doctors are so
+        professional and friendly thank you whole team highly recommended
       </>
     ),
-    name: "Mrs. Sumira",
-    title: "March 19, 2020",
+    name: "Paddu Padma",
+    title: "2 months ago",
   },
 ];
 
@@ -121,7 +111,7 @@ const Testimonial = ({ bg_img }) => {
                     }}
                     watchSlidesProgress={true}
                     modules={[FreeMode, Navigation, Thumbs]}
-                    className="testi-avta-bottom pb-50"
+                    className="testi-avta-bottom pb-30"
                     breakpoints={{
                       1400: {
                         slidesPerView: 4,
@@ -190,6 +180,39 @@ const Testimonial = ({ bg_img }) => {
                 {ts_text.map((item, i) => (
                   <SwiperSlide key={i}>
                     <div className="testi-content text-center">
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          paddingBottom: "15px",
+                        }}
+                      >
+                        <img
+                          style={{ width: "24px", padding: "2px" }}
+                          src="assets/photo/star.png"
+                          alt=""
+                        />
+                        <img
+                          style={{ width: "24px", padding: "2px" }}
+                          src="assets/photo/star.png"
+                          alt=""
+                        />
+                        <img
+                          style={{ width: "24px", padding: "2px" }}
+                          src="assets/photo/star.png"
+                          alt=""
+                        />
+                        <img
+                          style={{ width: "24px", padding: "2px" }}
+                          src="assets/photo/star.png"
+                          alt=""
+                        />
+                        <img
+                          style={{ width: "24px", padding: "2px" }}
+                          src="assets/photo/star.png"
+                          alt=""
+                        />
+                      </div>
                       <p style={{ marginBottom: "25px" }}>{item.des}</p>
                       <i>{item.name}</i>
                       <span>{item.title}</span>
@@ -198,6 +221,21 @@ const Testimonial = ({ bg_img }) => {
                 ))}
               </Swiper>
             </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "8px",
+              padding: "0px 10px",
+            }}
+          >
+            <a
+              style={{ color: "white", textAlign: "center" }}
+              href="https://www.google.com/search?q=DEEPASRI+MULTISPECIALITIES&oq=DEEPASRI+MULTISPECIALITIES&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQLhivARjHARiABDIGCAIQRRg8MgYIAxBFGDwyBggEEEUYPNIBBzk2MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x3bae6b3b1f1b3117:0x286fe35d86e0c8d6,1,,,,"
+            >
+              Google rating score:<b>4.3 of 5</b>,based on <b>437</b> reviews
+            </a>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import FooterFour from "../layout/footer/footer-4";
 import HeaderTwo from "../layout/header/header-two";
 import Wrapper from "../layout/wrapper";
 import React from "react";
+import Mobilelinks from "../common/mobilelinks";
 
 function psychiatry() {
   return (
@@ -31,6 +32,8 @@ function psychiatry() {
           );
         })}
         <FooterFour />
+
+        <Mobilelinks />
       </Wrapper>
     </>
   );

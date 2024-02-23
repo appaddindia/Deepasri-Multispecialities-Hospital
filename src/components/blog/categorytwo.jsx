@@ -6,7 +6,7 @@ function categorytwo() {
   return (
     <>
       <div className="sidebar__widget mb-40">
-        <h3 className="sidebar__widget-title mb-25">SERVICES</h3>
+        <h3 className="sidebar__widget-title mb-25">DEPARTMENT</h3>
         <div className="sidebar__widget-content">
           <ul>
             {serviceinfo.map(

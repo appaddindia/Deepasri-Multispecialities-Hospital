@@ -905,124 +905,6 @@ const serviceinfo = [
     web: "https://en.wikipedia.org/wiki/Inpatient_care",
   },
   {
-    id: 15,
-    name: "Surgical Center",
-    service: "other-service",
-    banner: "/assets/photo/bbbs15.jpg",
-    tittle: "Advanced Surgical Center at Deepasri Multispecialities Hospital",
-    img: "/assets/photo/sss15.jpg",
-    link: "/surgical-center",
-    icon: "/assets/photo/icon15.png",
-    content: (
-      <>
-        <p style={{ marginBottom: "10px" }}>
-          Deepasri Multispecialities Hospital boasts an advanced and
-          comprehensive surgical center dedicated to providing cutting-edge
-          surgical interventions across a spectrum of medical specialties. Our
-          surgical center is equipped with state-of-the-art facilities, ensuring
-          a sterile and technologically advanced environment for a wide range of
-          surgical procedures.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          The surgical center at Deepasri Multispecialities Hospital covers
-          various specialties, including general surgery, orthopaedics, urology,
-          gynaecology, and more. Our team of skilled surgeons and surgical staff
-          is committed to delivering exceptional care, utilizing the latest
-          surgical techniques and technologies to ensure optimal outcomes for
-          our patients. From minimally invasive procedures to complex surgeries,
-          our surgical center is well-equipped to handle a diverse array of
-          medical conditions. We prioritize patient safety and comfort
-          throughout the surgical process, from pre-operative assessments to
-          post-operative care, ensuring a seamless and positive experience for
-          each individual.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          Our surgical center is designed with patient-centric care in mind.
-          Comfortable pre-operative areas, advanced operating rooms, and
-          dedicated recovery spaces contribute to an environment that
-          prioritizes the well-being of our patients. Our surgical staff,
-          including nurses and anesthesiologists, are highly trained and
-          dedicated to providing compassionate care throughout the surgical
-          journey. Deepasri Multispecialities Hospital places a strong emphasis
-          on maintaining the highest standards of safety and hygiene in our
-          surgical center. Stringent infection control measures, adherence to
-          protocols, and continuous quality improvement initiatives ensure that
-          our patients receive the best possible care in a secure and sterile
-          environment.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          Whether its a routine procedure or a complex surgery, patients can
-          trust Deepasri Multispecialities Hospital for advanced and
-          patient-focused surgical care. Our surgical center is committed to
-          excellence, combining expertise, technology, and compassion to deliver
-          optimal surgical outcomes for individuals seeking medical
-          interventions across various specialties.
-        </p>
-      </>
-    ),
-    web: "https://en.wikipedia.org/wiki/Outpatient_surgery",
-  },
-  {
-    id: 16,
-    name: "Laparoscopy",
-    service: "other-service",
-    banner: "/assets/photo/bbbs16.jpg",
-    tittle:
-      "Advanced Laparoscopic Surgery at Deepasri Multispecialities Hospital",
-    img: "/assets/photo/sss16.jpg",
-    link: "/laparoscopy",
-    icon: "/assets/photo/icon16.png",
-    content: (
-      <>
-        <p style={{ marginBottom: "10px" }}>
-          Deepasri Multispecialities Hospital is a pioneer in providing advanced
-          laparoscopic surgery, offering minimally invasive procedures that
-          provide numerous benefits, including faster recovery, reduced pain,
-          and shorter hospital stays. Our laparoscopic surgery program is led by
-          skilled and experienced surgeons who specialize in utilizing this
-          sophisticated technique across various medical specialties.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          Laparoscopic surgery, also known as minimally invasive surgery,
-          involves making small incisions through which specialized instruments
-          and a camera are inserted to perform surgical procedures. This
-          technique allows for precise visualization and manipulation of
-          internal organs with minimal trauma to surrounding tissues.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          Our laparoscopic surgery services span across multiple specialties,
-          including general surgery, gynaecology, urology, and bariatric
-          surgery. Procedures such as laparoscopic cholecystectomy, hernia
-          repair, hysterectomy, and appendectomy are routinely performed with
-          this minimally invasive approach at Deepasri Multispecialities
-          Hospital. Patients undergoing laparoscopic surgery at our hospital
-          experience several advantages, including reduced postoperative pain,
-          smaller scars, and quicker recovery times compared to traditional open
-          surgeries. The minimally invasive nature of laparoscopic procedures
-          often allows patients to resume their normal activities sooner,
-          contributing to an improved overall quality of life.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          At Deepasri Multispecialities Hospital, our commitment to utilizing
-          the latest technology and surgical techniques ensures that patients
-          receive optimal care. Our laparoscopic surgery team is dedicated to
-          providing personalized and comprehensive treatment plans, considering
-          the unique needs of each patient and delivering the highest standards
-          of surgical excellence.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          Whether you require a routine laparoscopic procedure or a more complex
-          surgery, Deepasri Multispecialities Hospital is well-equipped to
-          provide advanced laparoscopic surgery across a range of medical
-          disciplines. Trust our experienced laparoscopic surgeons for
-          cutting-edge and minimally invasive solutions that prioritize your
-          well-being and offer the best possible outcomes.
-        </p>
-      </>
-    ),
-    web: "https://en.wikipedia.org/wiki/Laparoscopy",
-  },
-  {
     id: 17,
     name: "Advanced Laboratory Services",
     service: "other-service",
@@ -1148,6 +1030,69 @@ const serviceinfo = [
     web: "https://en.wikipedia.org/wiki/Medical_ultrasound",
   },
   {
+    id: 20,
+    name: "X-Ray",
+    service: "other-service",
+    banner: "/assets/photo/bbbs20.jpg",
+    tittle: "Advanced X-Ray Imaging at Deepasri Multispecialities Hospital",
+    img: "/assets/photo/sss20.jpg",
+    icon: "/assets/photo/icon20.png",
+    link: "/x-ray",
+    content: (
+      <>
+        <p style={{ marginBottom: "10px" }}>
+          Deepasri Multispecialities Hospital is proud to offer advanced X-ray
+          imaging services, utilizing state-of-the-art technology to provide
+          detailed and accurate diagnostic images. X-ray imaging remains a
+          fundamental and valuable tool in the field of medical diagnostics,
+          allowing healthcare professionals to visualize internal structures and
+          identify a range of medical conditions. X-ray imaging involves the use
+          of ionizing radiation to create detailed images of the inside of the
+          body. Our hospital is equipped with modern X-ray machines that produce
+          high-quality images with minimal radiation exposure, prioritizing
+          patient safety and diagnostic accuracy.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          Our X-ray services cover a broad spectrum of diagnostic imaging needs,
+          including skeletal X-rays for bone fractures, chest X-rays for lung
+          and heart assessments, and abdominal X-rays for evaluating abdominal
+          organs. The versatility of X-ray imaging makes it a crucial component
+          in the initial diagnosis, treatment planning, and monitoring of
+          various medical conditions. The skilled radiographers and radiologists
+          at Deepasri Multispecialities Hospital ensure that X-ray procedures
+          are performed efficiently and accurately. Patient comfort and safety
+          are paramount, and our staff takes measures to minimize radiation
+          exposure while obtaining the necessary diagnostic information.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          X-ray imaging plays a vital role in the diagnosis and management of
+          conditions such as fractures, infections, tumors, and respiratory
+          issues. The quick turnaround time for X-ray results allows healthcare
+          professionals to promptly assess and address patients needs,
+          contributing to more effective and timely medical care. Our X-ray
+          department collaborates closely with other medical specialties within
+          the hospital, ensuring a multidisciplinary approach to patient care.
+          The integration of X-ray imaging with other diagnostic modalities
+          contributes to a comprehensive understanding of patients health,
+          facilitating well-informed medical decisions.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          Deepasri Multispecialities Hospital is committed to maintaining the
+          highest standards of quality and safety in X-ray imaging. Regular
+          equipment maintenance, adherence to radiation safety protocols, and
+          ongoing training for our staff contribute to the excellence of our
+          X-ray services. Whether for routine screenings, injury assessments, or
+          monitoring specific health concerns, patients can trust Deepasri
+          Multispecialities Hospital for advanced X-ray imaging services. Our
+          commitment to providing accurate and timely diagnostic information
+          contributes to the overall quality of care we provide, ensuring
+          optimal outcomes for our patients.
+        </p>
+      </>
+    ),
+    web: "https://en.wikipedia.org/wiki/X-ray",
+  },
+  {
     id: 19,
     name: "Physiotheraphy",
     service: "other-service",
@@ -1216,69 +1161,6 @@ const serviceinfo = [
     web: "https://en.wikipedia.org/wiki/Physical_therapy",
   },
   {
-    id: 20,
-    name: "X-Ray",
-    service: "other-service",
-    banner: "/assets/photo/bbbs20.jpg",
-    tittle: "Advanced X-Ray Imaging at Deepasri Multispecialities Hospital",
-    img: "/assets/photo/sss20.jpg",
-    icon: "/assets/photo/icon20.png",
-    link: "/x-ray",
-    content: (
-      <>
-        <p style={{ marginBottom: "10px" }}>
-          Deepasri Multispecialities Hospital is proud to offer advanced X-ray
-          imaging services, utilizing state-of-the-art technology to provide
-          detailed and accurate diagnostic images. X-ray imaging remains a
-          fundamental and valuable tool in the field of medical diagnostics,
-          allowing healthcare professionals to visualize internal structures and
-          identify a range of medical conditions. X-ray imaging involves the use
-          of ionizing radiation to create detailed images of the inside of the
-          body. Our hospital is equipped with modern X-ray machines that produce
-          high-quality images with minimal radiation exposure, prioritizing
-          patient safety and diagnostic accuracy.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          Our X-ray services cover a broad spectrum of diagnostic imaging needs,
-          including skeletal X-rays for bone fractures, chest X-rays for lung
-          and heart assessments, and abdominal X-rays for evaluating abdominal
-          organs. The versatility of X-ray imaging makes it a crucial component
-          in the initial diagnosis, treatment planning, and monitoring of
-          various medical conditions. The skilled radiographers and radiologists
-          at Deepasri Multispecialities Hospital ensure that X-ray procedures
-          are performed efficiently and accurately. Patient comfort and safety
-          are paramount, and our staff takes measures to minimize radiation
-          exposure while obtaining the necessary diagnostic information.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          X-ray imaging plays a vital role in the diagnosis and management of
-          conditions such as fractures, infections, tumors, and respiratory
-          issues. The quick turnaround time for X-ray results allows healthcare
-          professionals to promptly assess and address patients needs,
-          contributing to more effective and timely medical care. Our X-ray
-          department collaborates closely with other medical specialties within
-          the hospital, ensuring a multidisciplinary approach to patient care.
-          The integration of X-ray imaging with other diagnostic modalities
-          contributes to a comprehensive understanding of patients health,
-          facilitating well-informed medical decisions.
-        </p>
-        <p style={{ marginBottom: "10px" }}>
-          Deepasri Multispecialities Hospital is committed to maintaining the
-          highest standards of quality and safety in X-ray imaging. Regular
-          equipment maintenance, adherence to radiation safety protocols, and
-          ongoing training for our staff contribute to the excellence of our
-          X-ray services. Whether for routine screenings, injury assessments, or
-          monitoring specific health concerns, patients can trust Deepasri
-          Multispecialities Hospital for advanced X-ray imaging services. Our
-          commitment to providing accurate and timely diagnostic information
-          contributes to the overall quality of care we provide, ensuring
-          optimal outcomes for our patients.
-        </p>
-      </>
-    ),
-    web: "https://en.wikipedia.org/wiki/X-ray",
-  },
-  {
     id: 21,
     name: "ECG",
     service: "other-service",
@@ -1339,6 +1221,70 @@ const serviceinfo = [
       </>
     ),
     web: "https://en.wikipedia.org/wiki/Electrocardiography",
+  },
+  {
+    id: 23,
+    name: "Ambulance Services",
+    service: "other-service",
+    banner: "/assets/photo/bbbs23.jpg",
+    tittle:
+      "Prompt and Reliable Ambulance Services at Deepasri Multispecialities Hospital",
+    img: "/assets/photo/sss23.jpg",
+    link: "/ambulance-services",
+    icon: "/assets/photo/icon23.png",
+    content: (
+      <>
+        <p style={{ marginBottom: "10px" }}>
+          Deepasri Multispecialities Hospital takes pride in providing prompt
+          and reliable ambulance services, ensuring the swift and safe
+          transportation of patients in need of urgent medical care. Our
+          dedicated ambulance services are an integral part of our commitment to
+          delivering comprehensive and timely healthcare. Equipped with
+          state-of-the-art ambulances and staffed by trained paramedics and
+          emergency medical technicians (EMTs), our ambulance services are
+          available 24/7 to respond to emergencies, accidents, and critical
+          medical situations. The primary goal is to offer immediate medical
+          assistance and facilitate the rapid transport of patients to our
+          hospital or other healthcare facilities, ensuring timely access to
+          life-saving treatments.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          Our ambulance fleet is equipped with advanced life support (ALS) and
+          basic life support (BLS) equipment, allowing us to provide a range of
+          medical interventions during transit. From administering emergency
+          medications to monitoring vital signs, our paramedics are trained to
+          deliver the highest standard of pre-hospital care. The seamless
+          coordination between our hospital and ambulance services enhances the
+          continuity of care for patients. Our emergency response team
+          communicates closely with healthcare providers, ensuring that the
+          receiving medical team is prepared and informed about the patients
+          condition before arrival, enabling swift and effective medical
+          interventions upon reaching the hospital.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          In addition to emergency situations, our ambulance services also
+          support the safe transfer of patients between healthcare facilities
+          for specialized treatments, tests, or consultations. This service
+          ensures that patients receive the necessary care at the right time,
+          contributing to optimal health outcomes. Deepasri Multispecialities
+          Hospital places a strong emphasis on the safety and well-being of
+          patients during ambulance transport. Rigorous safety protocols,
+          regular equipment maintenance, and ongoing training for our emergency
+          medical personnel contribute to the reliability and excellence of our
+          ambulance services.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          Whether its a medical emergency, trauma, or the need for
+          inter-facility transfers, patients can trust Deepasri
+          Multispecialities Hospitals ambulance services for prompt and
+          efficient medical transportation. Our commitment to delivering quality
+          emergency care extends beyond the hospital walls, ensuring that
+          individuals in need receive timely and expert assistance during
+          critical moments.
+        </p>
+      </>
+    ),
+    web: "https://en.wikipedia.org/wiki/Ambulance",
   },
   {
     id: 22,
@@ -1408,69 +1354,124 @@ const serviceinfo = [
     ),
     web: "https://en.wikipedia.org/wiki/Pharmacist",
   },
+
   {
-    id: 23,
-    name: "Ambulance Services",
+    id: 16,
+    name: "Laparoscopy",
     service: "other-service",
-    banner: "/assets/photo/bbbs23.jpg",
+    banner: "/assets/photo/bbbs16.jpg",
     tittle:
-      "Prompt and Reliable Ambulance Services at Deepasri Multispecialities Hospital",
-    img: "/assets/photo/sss23.jpg",
-    link: "/ambulance-services",
-    icon: "/assets/photo/icon23.png",
+      "Advanced Laparoscopic Surgery at Deepasri Multispecialities Hospital",
+    img: "/assets/photo/sss16.jpg",
+    link: "/laparoscopy",
+    icon: "/assets/photo/icon16.png",
     content: (
       <>
         <p style={{ marginBottom: "10px" }}>
-          Deepasri Multispecialities Hospital takes pride in providing prompt
-          and reliable ambulance services, ensuring the swift and safe
-          transportation of patients in need of urgent medical care. Our
-          dedicated ambulance services are an integral part of our commitment to
-          delivering comprehensive and timely healthcare. Equipped with
-          state-of-the-art ambulances and staffed by trained paramedics and
-          emergency medical technicians (EMTs), our ambulance services are
-          available 24/7 to respond to emergencies, accidents, and critical
-          medical situations. The primary goal is to offer immediate medical
-          assistance and facilitate the rapid transport of patients to our
-          hospital or other healthcare facilities, ensuring timely access to
-          life-saving treatments.
+          Deepasri Multispecialities Hospital is a pioneer in providing advanced
+          laparoscopic surgery, offering minimally invasive procedures that
+          provide numerous benefits, including faster recovery, reduced pain,
+          and shorter hospital stays. Our laparoscopic surgery program is led by
+          skilled and experienced surgeons who specialize in utilizing this
+          sophisticated technique across various medical specialties.
         </p>
         <p style={{ marginBottom: "10px" }}>
-          Our ambulance fleet is equipped with advanced life support (ALS) and
-          basic life support (BLS) equipment, allowing us to provide a range of
-          medical interventions during transit. From administering emergency
-          medications to monitoring vital signs, our paramedics are trained to
-          deliver the highest standard of pre-hospital care. The seamless
-          coordination between our hospital and ambulance services enhances the
-          continuity of care for patients. Our emergency response team
-          communicates closely with healthcare providers, ensuring that the
-          receiving medical team is prepared and informed about the patients
-          condition before arrival, enabling swift and effective medical
-          interventions upon reaching the hospital.
+          Laparoscopic surgery, also known as minimally invasive surgery,
+          involves making small incisions through which specialized instruments
+          and a camera are inserted to perform surgical procedures. This
+          technique allows for precise visualization and manipulation of
+          internal organs with minimal trauma to surrounding tissues.
         </p>
         <p style={{ marginBottom: "10px" }}>
-          In addition to emergency situations, our ambulance services also
-          support the safe transfer of patients between healthcare facilities
-          for specialized treatments, tests, or consultations. This service
-          ensures that patients receive the necessary care at the right time,
-          contributing to optimal health outcomes. Deepasri Multispecialities
-          Hospital places a strong emphasis on the safety and well-being of
-          patients during ambulance transport. Rigorous safety protocols,
-          regular equipment maintenance, and ongoing training for our emergency
-          medical personnel contribute to the reliability and excellence of our
-          ambulance services.
+          Our laparoscopic surgery services span across multiple specialties,
+          including general surgery, gynaecology, urology, and bariatric
+          surgery. Procedures such as laparoscopic cholecystectomy, hernia
+          repair, hysterectomy, and appendectomy are routinely performed with
+          this minimally invasive approach at Deepasri Multispecialities
+          Hospital. Patients undergoing laparoscopic surgery at our hospital
+          experience several advantages, including reduced postoperative pain,
+          smaller scars, and quicker recovery times compared to traditional open
+          surgeries. The minimally invasive nature of laparoscopic procedures
+          often allows patients to resume their normal activities sooner,
+          contributing to an improved overall quality of life.
         </p>
         <p style={{ marginBottom: "10px" }}>
-          Whether its a medical emergency, trauma, or the need for
-          inter-facility transfers, patients can trust Deepasri
-          Multispecialities Hospitals ambulance services for prompt and
-          efficient medical transportation. Our commitment to delivering quality
-          emergency care extends beyond the hospital walls, ensuring that
-          individuals in need receive timely and expert assistance during
-          critical moments.
+          At Deepasri Multispecialities Hospital, our commitment to utilizing
+          the latest technology and surgical techniques ensures that patients
+          receive optimal care. Our laparoscopic surgery team is dedicated to
+          providing personalized and comprehensive treatment plans, considering
+          the unique needs of each patient and delivering the highest standards
+          of surgical excellence.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          Whether you require a routine laparoscopic procedure or a more complex
+          surgery, Deepasri Multispecialities Hospital is well-equipped to
+          provide advanced laparoscopic surgery across a range of medical
+          disciplines. Trust our experienced laparoscopic surgeons for
+          cutting-edge and minimally invasive solutions that prioritize your
+          well-being and offer the best possible outcomes.
         </p>
       </>
     ),
-    web: "https://en.wikipedia.org/wiki/Ambulance",
+    web: "https://en.wikipedia.org/wiki/Laparoscopy",
+  },
+  {
+    id: 15,
+    name: "Surgical Center",
+    service: "other-service",
+    banner: "/assets/photo/bbbs15.jpg",
+    tittle: "Advanced Surgical Center at Deepasri Multispecialities Hospital",
+    img: "/assets/photo/sss15.jpg",
+    link: "/surgical-center",
+    icon: "/assets/photo/icon15.png",
+    content: (
+      <>
+        <p style={{ marginBottom: "10px" }}>
+          Deepasri Multispecialities Hospital boasts an advanced and
+          comprehensive surgical center dedicated to providing cutting-edge
+          surgical interventions across a spectrum of medical specialties. Our
+          surgical center is equipped with state-of-the-art facilities, ensuring
+          a sterile and technologically advanced environment for a wide range of
+          surgical procedures.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          The surgical center at Deepasri Multispecialities Hospital covers
+          various specialties, including general surgery, orthopaedics, urology,
+          gynaecology, and more. Our team of skilled surgeons and surgical staff
+          is committed to delivering exceptional care, utilizing the latest
+          surgical techniques and technologies to ensure optimal outcomes for
+          our patients. From minimally invasive procedures to complex surgeries,
+          our surgical center is well-equipped to handle a diverse array of
+          medical conditions. We prioritize patient safety and comfort
+          throughout the surgical process, from pre-operative assessments to
+          post-operative care, ensuring a seamless and positive experience for
+          each individual.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          Our surgical center is designed with patient-centric care in mind.
+          Comfortable pre-operative areas, advanced operating rooms, and
+          dedicated recovery spaces contribute to an environment that
+          prioritizes the well-being of our patients. Our surgical staff,
+          including nurses and anesthesiologists, are highly trained and
+          dedicated to providing compassionate care throughout the surgical
+          journey. Deepasri Multispecialities Hospital places a strong emphasis
+          on maintaining the highest standards of safety and hygiene in our
+          surgical center. Stringent infection control measures, adherence to
+          protocols, and continuous quality improvement initiatives ensure that
+          our patients receive the best possible care in a secure and sterile
+          environment.
+        </p>
+        <p style={{ marginBottom: "10px" }}>
+          Whether its a routine procedure or a complex surgery, patients can
+          trust Deepasri Multispecialities Hospital for advanced and
+          patient-focused surgical care. Our surgical center is committed to
+          excellence, combining expertise, technology, and compassion to deliver
+          optimal surgical outcomes for individuals seeking medical
+          interventions across various specialties.
+        </p>
+      </>
+    ),
+    web: "https://en.wikipedia.org/wiki/Outpatient_surgery",
   },
 ];
 export default serviceinfo;

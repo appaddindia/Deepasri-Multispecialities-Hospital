@@ -58,12 +58,12 @@ const Specialists = () => {
   return (
     <>
       <section
-        className="choose-area grey-bg pt-100 pb-50 tp-box-space ml-30 mr-30"
-        style={{ backgroundImage: `url(/assets/img/shape/shape-bg-07.png)` }}
+        className="choose-area pt-0 pb-30 tp-box-space ml-0 mr-0"
+        // style={{ backgroundImage: `url(/assets/img/shape/shape-bg-07.png)` }}
       >
         <div className="container">
           <div className="">
-            <div className="row">
+            {/* <div className="row">
               <div className="col-lg-12">
                 <div className="tp-section text-center">
                   <span className="tp-section__sub-title left-line right-line mb-20">
@@ -77,10 +77,10 @@ const Specialists = () => {
                   </h3>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="row">
               {choose.map((item) => (
-                <div key={item.id} className="col-xl-3 col-md-6 col-12">
+                <div key={item.id} className="col-xl-6 col-md-6 col-12">
                   <div
                     className="tp-choose__item ml-25 mb-30 wow fadeInUp"
                     data-wow-delay=".8s"

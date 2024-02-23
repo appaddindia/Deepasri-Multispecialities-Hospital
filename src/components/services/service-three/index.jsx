@@ -12,12 +12,12 @@ const ServiceThree = () => {
       <HeaderTwo />
       <Banner />
       <ServiceArea />
-      <div
+      {/* <div
         className="grey-bg"
         style={{ backgroundImage: `url(/assets/img/shape/shape-bg-07.png)` }}
       >
         <NavTab />
-      </div>
+      </div> */}
       {/* <ProcessArea /> */}
       {/* <PricingArea /> */}
       {/* <DirectContactUs /> */}

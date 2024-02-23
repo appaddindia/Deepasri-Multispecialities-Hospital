@@ -12,7 +12,7 @@ const contact_info = {
   ),
   phone_1: "(+91) 94817 87736",
   phone_2: "(+91) 95138 64338",
-  open: <> MONDAY - SUNDAY 09:00 AM - 04:00 PM</>,
+  open: <> 24-Hour Emergency Services: Immediate Assistance Around the Clock</>,
 };
 
 const { address, phone_1, phone_2, open } = contact_info;

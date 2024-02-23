@@ -4,6 +4,7 @@ import HeaderTwo from "../../../layout/header/header-two";
 import React from "react";
 import Banner from "./banner";
 import ServiceArea from "./service-area";
+import NavTab from "../../../common/nav-tab";
 
 const ServiceOne = () => {
   return (
@@ -11,8 +12,7 @@ const ServiceOne = () => {
       <HeaderTwo />
       <Banner />
       <ServiceArea />
-      <div style={{ marginTop: "-120px" }}></div>
-      <Specialists />
+
       {/* <PricingArea /> */}
       {/* <DirectContactUs /> */}
       <FooterFour />

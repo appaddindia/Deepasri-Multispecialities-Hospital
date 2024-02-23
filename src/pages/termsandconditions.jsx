@@ -6,6 +6,7 @@ import Banner from "../components/services/service-details/banner";
 import FooterFour from "../layout/footer/footer-4";
 import Terms from "../components/contact/terms";
 import Conditions from "../components/contact/conditions";
+import Mobilelinks from "../common/mobilelinks";
 
 function termsandconditions() {
   return (
@@ -15,6 +16,7 @@ function termsandconditions() {
       <Banner name={"Terms and conditions"} banner={"assets/photo/terms.jpg"} />
       <Conditions />
       <FooterFour />
+      <Mobilelinks />
     </Wrapper>
   );
 }

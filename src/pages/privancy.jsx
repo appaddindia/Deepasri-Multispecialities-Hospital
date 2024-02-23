@@ -6,6 +6,7 @@ import Conditions from "../components/contact/conditions";
 import FooterFour from "../layout/footer/footer-4";
 import Terms from "../components/contact/terms";
 import Banner from "../components/services/service-details/banner";
+import Mobilelinks from "../common/mobilelinks";
 
 function Privancy() {
   return (
@@ -15,6 +16,7 @@ function Privancy() {
       <Banner name={"Privacy policy"} banner={"assets/photo/pri.jpg"} />
       <Terms />
       <FooterFour />
+      <Mobilelinks />
     </Wrapper>
   );
 }

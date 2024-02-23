@@ -17,10 +17,11 @@ const tags = [
 ];
 
 const Tags = () => {
+  let name = "facility";
   return (
     <>
       <div className="sidebar__widget mb-55">
-        <h3 className="sidebar__widget-title mb-25">OTHER SERVICES</h3>
+        <h3 className="sidebar__widget-title mb-25">{name.toUpperCase()}</h3>
         <div className="sidebar__widget-content">
           <div className="tagcloud">
             {serviceinfo.map(

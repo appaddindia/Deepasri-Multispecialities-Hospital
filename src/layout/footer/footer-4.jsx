@@ -18,10 +18,13 @@ const FooterFour = ({ style_2 = false }) => {
                     className="tp-footer-widget footer-2-col-1 mb-40 wow fadeInUp"
                     data-wow-delay=".2s"
                   >
-                    <div className="tp-footer-widget__content mb-95">
+                    <div className="tp-footer-widget__content mb-75">
                       <i>FEEL FREE TO CONTACT US</i>
                       <h4 className="tp-footer-widget__contact mb-20">
-                        <a href="tel:61383766284">94817 87736</a>
+                        <a href="tel:9481787736">94817 87736</a>
+                      </h4>
+                      <h4 className="tp-footer-widget__contact mb-20">
+                        <a href="tel:9886704910">98867 04910</a>
                       </h4>
                       <a href="mailto:noreply@envato.com">
                         DEEPASRIMH@GMAIL.COM
@@ -75,7 +78,7 @@ const FooterFour = ({ style_2 = false }) => {
                     data-wow-delay=".4s"
                   >
                     <span className="tp-footer-widget__title mb-15">
-                      Other Services
+                      Facility
                     </span>
                     <div className="tp-footer-widget__links mb-35">
                       <ul>
@@ -88,7 +91,7 @@ const FooterFour = ({ style_2 = false }) => {
                           <Link href="/surgical-center">Surgical Center</Link>
                         </li>
                         <li>
-                          <Link href="/laparoscopy">Laparoscopy</Link>
+                          <Link href="/service">Know More</Link>
                         </li>
                       </ul>
                     </div>
@@ -100,7 +103,7 @@ const FooterFour = ({ style_2 = false }) => {
                     data-wow-delay=".6s"
                   >
                     <span className="tp-footer-widget__title mb-15">
-                      Our Specialities
+                      Department
                     </span>
                     <div className="tp-footer-widget__links">
                       <ul>
@@ -159,7 +162,7 @@ const FooterFour = ({ style_2 = false }) => {
                           8th Phase, Jambusavari Dinne Road,
                         </li>
                         <li>Bengaluru - 560 076.</li>
-                        <li>Office Hours: 11AM - 4PM</li>
+                        <li>24-Hour Emergency Services</li>
                       </ul>
                     </div>
                     <div className="tp-footer-widget__social fw-social">

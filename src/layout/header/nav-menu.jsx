@@ -9,7 +9,11 @@ const NavMenu = ({ num = false }) => {
         {menu_data.map((menu, index) =>
           menu.has_dropdown ? (
             <li key={menu.id} className="has-dropdown">
-              <Link className={`${menu?.active}`} href={menu.link}>
+              <Link
+                style={{ fontSize: "14px" }}
+                className={`${menu?.active}`}
+                href={menu.link}
+              >
                 {num && index <= 9
                   ? `0${index + 1 + "."}`
                   : num && index + 1 + "."}
@@ -19,7 +23,12 @@ const NavMenu = ({ num = false }) => {
                 <ul className="sub-menu">
                   {menu.sub_menus.map((sub_m, i) => (
                     <li key={i}>
-                      <Link href={sub_m.link}>{sub_m.title}</Link>
+                      <Link
+                        style={{ fontSize: "14px", textAlign: "center" }}
+                        href={sub_m.link}
+                      >
+                        {sub_m.title}
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -27,7 +36,7 @@ const NavMenu = ({ num = false }) => {
             </li>
           ) : (
             <li key={menu.id}>
-              <Link href={menu.link}>
+              <Link style={{ fontSize: "14px" }} href={menu.link}>
                 {num && index <= 9
                   ? `0${index + 1 + "."}`
                   : num && index + 1 + "."}

@@ -1,6 +1,7 @@
 import Count from "../../../common/count";
 import Link from "next/link";
 import React from "react";
+import Specialists from "../../../common/specialists";
 
 // content
 const content = {
@@ -54,12 +55,16 @@ const {
 const About = () => {
   return (
     <>
-      <section id="tp-about-scroll" className="about-area pb-70">
+      <section
+        style={{ backgroundImage: `url(/assets/img/shape/shape-bg-01.png)` }}
+        id="tp-about-scroll"
+        className="about-area pb-70 grey-bg"
+      >
         <div className="container">
           <div className="row">
-            <div className="col-xl-6 col-lg-12">
+            <div className="col-xl-5 col-lg-12">
               <div
-                className="about__thumb mb-60 wow fadeInLeft"
+                className="about__thumb mb-0 wow fadeInLeft"
                 data-wow-delay=".4s"
               >
                 <div className="about__img">
@@ -73,9 +78,9 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-12">
+            <div className="col-xl-7 col-lg-12">
               <div
-                className="tp-about__content pt-125 ml-60 mb-50 wow fadeInRight"
+                className="tp-about__content pt-50 ml-60 mb-00 wow fadeInRight"
                 data-wow-delay=".4s"
               >
                 <div className="tp-section">
@@ -83,12 +88,13 @@ const About = () => {
                     {title}
                   </span>
                   <h3 className="tp-section__title tp-ab-sm-title mb-45">
-                    {section_title}
+                    Why Choose Us
                   </h3>
-                  <i>{section_sub_title}</i>
-                  <p className=" mr-20 mb-45">{section_des}</p>
+                  {/* <i>{section_sub_title}</i> */}
+                  {/* <p className=" mr-20 mb-45">{section_des}</p> */}
                 </div>
-                <div className="tp-about__info-list mb-55">
+                <Specialists />
+                {/* <div className="tp-about__info-list mb-55">
                   <ul>
                     {about_info_list.map((list, i) => (
                       <li key={i}>
@@ -96,15 +102,15 @@ const About = () => {
                       </li>
                     ))}
                   </ul>
-                </div>
-                <div className="tp-about__btn">
+                </div> */}
+                {/* <div className="tp-about__btn">
                   <Link className="tp-btn" href="/about">
                     Our HIstory
                   </Link>
                   <Link className="tp-btn-second ml-25" href="/about">
                     About us
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

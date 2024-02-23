@@ -14,13 +14,13 @@ const ServiceArea = () => {
             <div className="col-lg-12 col-md-12 col-12">
               <div className="tp-section">
                 <span className="tp-section__sub-title left-line right-line mb-20">
-                  our Services
+                  our facility
                 </span>
                 <h3
                   style={{ fontSize: "28px" }}
                   className="tp-section__title mb-50"
                 >
-                  Service Area
+                  Advanced center
                 </h3>
               </div>
             </div>

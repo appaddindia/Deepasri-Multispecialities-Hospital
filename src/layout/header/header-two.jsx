@@ -47,7 +47,8 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Help Desk :</span>94817 87736
+                    <span style={{ fontSize: "14px" }}>Help Desk :</span>94817
+                    87736
                   </a>
                 </div>
                 <button
@@ -101,11 +102,11 @@ const HeaderTwo = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="header-time">
-                    <span>
-                      <i className="fa-light fa-clock-ten"></i> Monday - Sunday
-                      09:00 am - 04:00 Pm
+                    <span style={{ fontSize: "14px" }}>
+                      <i className="fa-light fa-clock-ten"></i> 24 Hour
+                      Emergency Services
                     </span>
-                    <span>
+                    <span style={{ fontSize: "14px" }}>
                       <i class="fa-light fa-envelope"></i> deepasrimh@gmail.com
                     </span>
                   </div>
