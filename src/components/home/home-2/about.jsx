@@ -207,9 +207,12 @@ const About = () => {
                     </p>
                   </div>
                   <div className="about-content__btn">
-                    <Link href="/about" className="tp-btn">
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=9886704910&text=Hello"
+                      className="tp-btn"
+                    >
                       {btn}
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -239,7 +242,9 @@ const About = () => {
                       {b_title}
                     </h2>
                     <div className="cta-btn">
-                      <button className="tp-btn-second">{b_btn}</button>
+                      <a href="tel:9481787736" className="tp-btn-second">
+                        {b_btn}
+                      </a>
                     </div>
                     <div className="cta-shape d-none d-md-block">
                       <img

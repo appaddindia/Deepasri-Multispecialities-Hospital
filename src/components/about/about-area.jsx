@@ -96,9 +96,12 @@ const AboutArea = () => {
                   </ul>
                 </div> */}
                 <div className="about-content__btn">
-                  <Link href="/about" className="tp-btn">
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=9886704910&text=Hello"
+                    className="tp-btn"
+                  >
                     Book Appointment
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

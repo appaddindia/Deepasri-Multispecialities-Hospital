@@ -58,7 +58,13 @@ function Slider() {
     setIsLoop(true);
   }, []);
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <Swiper
         modules={[Navigation]}
         loop={isLoop}
@@ -84,6 +90,26 @@ function Slider() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div
+        style={{ position: "absolute", zIndex: "800" }}
+        className="container"
+      >
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+          className="blog-arrow d-flex align-items-center"
+        >
+          <div className="blog-prv">
+            <i className="fa-regular fa-arrow-left"></i>
+          </div>
+          <div className="blog-nxt">
+            <i className="fa-regular fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
 
       {/* <div
         style={{ padding: "0px 100px", width: "100%", position: "relative" }}

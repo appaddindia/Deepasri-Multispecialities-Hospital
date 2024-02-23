@@ -11,7 +11,7 @@ const contact_info = {
     </>
   ),
   phone_1: "(+91) 94817 87736",
-  phone_2: "(+91) 95138 64338",
+  phone_2: "(+91) 98867 04910",
   open: <> 24-Hour Emergency Services: Immediate Assistance Around the Clock</>,
 };
 

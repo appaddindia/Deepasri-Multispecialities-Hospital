@@ -24,7 +24,9 @@ const FooterFour = ({ style_2 = false }) => {
                         <a href="tel:9481787736">94817 87736</a>
                       </h4>
                       <h4 className="tp-footer-widget__contact mb-20">
-                        <a href="tel:9886704910">98867 04910</a>
+                        <a href="https://api.whatsapp.com/send/?phone=9886704910&text=Hello">
+                          98867 04910
+                        </a>
                       </h4>
                       <a href="mailto:noreply@envato.com">
                         DEEPASRIMH@GMAIL.COM

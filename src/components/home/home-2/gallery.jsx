@@ -66,22 +66,13 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-        <div className="gallery-item-bg wow fadeInUp" data-wow-delay=".3s">
+        <div className="gallery-item-bg wow fadeInUp">
           <div className="container">
             <div className="row">
               {gallery_content_data.map((item) => (
                 <div key={item.id} className={item.class}>
                   <div className="gallery-item  mb-30">
                     <img src={item.img} alt="gallery-thumb" />
-                    {/* <div className="gallery-item__content">
-                      <h4 className="gallery-item__title">
-                        <Link href="/gallery">{item.title}</Link>
-                      </h4>
-                      <span>
-                        <i className="fa-solid fa-tag"></i>
-                        <Link href="/gallery">Services</Link>
-                      </span>
-                    </div> */}
                   </div>
                 </div>
               ))}

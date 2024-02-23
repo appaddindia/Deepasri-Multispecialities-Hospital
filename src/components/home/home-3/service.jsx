@@ -17,7 +17,7 @@ const Service = () => {
                 <span className="tp-section__sub-title left-line mb-20">
                   Facility
                 </span>
-                <h3 className="tp-section__title mb-75">Advanced center</h3>
+                <h3 className="tp-section__title heedk">Advanced center</h3>
               </div>
             </div>
             <div className="col-lg-7 col-md-12 col-12">
@@ -44,19 +44,39 @@ const Service = () => {
                       <div className="services-thumb-box__thumb fix">
                         <img src={item.img} alt="services-thumb" />
                       </div>
-                      <div className="services-thumb-box__text-area d-flex align-items-center grey-bg">
-                        <div className="services-thumb-box__icon mr-20">
+                      <div
+                        style={{
+                          paddingTop: "10px",
+                          paddingBottom: "10px",
+                        }}
+                        className="services-thumb-box__text-area d-flex align-items-center grey-bg"
+                      >
+                        <div
+                          style={{
+                            backgroundColor: "white",
+                            padding: "0px",
+                            width: "55px",
+                            height: "55px",
+                          }}
+                          className="services-thumb-box__icon mr-10"
+                        >
                           <img
                             style={{
-                              width: "48px",
-                              marginBottom: "10px",
+                              width: "42px",
+                              marginBottom: "15px",
                               padding: "5px",
                             }}
                             src={item.icon}
                           ></img>
                         </div>
-                        <div className="services-thumb-box__content">
-                          <h5 className="services-thumb-box__title">
+                        <div
+                          style={{ paddingTop: "0px", paddingBottom: "0px" }}
+                          className="services-thumb-box__content"
+                        >
+                          <h5
+                            style={{ marginBottom: "0px" }}
+                            className="services-thumb-box__title"
+                          >
                             <Link style={{ fontSize: "16px" }} href={item.link}>
                               {item.name}
                             </Link>

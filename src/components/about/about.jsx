@@ -8,7 +8,7 @@ import NavTab from "../../common/nav-tab";
 import Team from "../../common/team";
 import FooterFour from "../../layout/footer/footer-4";
 import ServiceArea from "../home/home/service-area";
-import Blog from "../home/home-2/blog";
+import Gallery from "../home/home-2/gallery";
 
 const About = () => {
   return (
@@ -24,9 +24,12 @@ const About = () => {
       {/* <Specialists /> */}
       <section
         className="grey-bg"
-        style={{ backgroundImage: `url(/assets/img/shape/shape-bg-07.png)` }}
+        style={{
+          backgroundImage: `url(/assets/img/shape/shape-bg-07.png)`,
+          paddingBottom: "90px",
+        }}
       >
-        <Blog />
+        <Gallery />
       </section>
 
       <FooterFour />

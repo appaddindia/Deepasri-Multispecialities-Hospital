@@ -10,10 +10,14 @@ const menu_data = [
   {
     id: 2,
     mega_menu: false,
-    has_dropdown: false,
+    has_dropdown: true,
     title: "About",
     link: "/about",
     active: "",
+    sub_menus: [
+      { link: "/gallery", title: "Gallery" },
+      { link: "/team-1", title: "Know Our Doctor" },
+    ],
   },
   {
     id: 3,

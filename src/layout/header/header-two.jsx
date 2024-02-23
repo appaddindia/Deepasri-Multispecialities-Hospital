@@ -11,6 +11,7 @@ const HeaderTwo = () => {
   return (
     <>
       <div
+        style={{ position: "relative", zIndex: "999" }}
         id="header-mob-sticky"
         className={`tp-mobile-header-area pt-15 pb-15 d-xl-none ${
           sticky ? "header-sticky" : ""
@@ -63,7 +64,10 @@ const HeaderTwo = () => {
         </div>
       </div>
 
-      <header className="d-none d-xl-block">
+      <header
+        style={{ position: "relative", zIndex: "999" }}
+        className="d-none d-xl-block"
+      >
         <div
           className={`header-custom ${sticky ? "header-sticky" : ""}`}
           id="header-sticky"
@@ -208,9 +212,12 @@ const HeaderTwo = () => {
                         </div> */}
                       </div>
                     </div>
-                    <Link className="header-bottom-btn" href="/about">
+                    <a
+                      className="header-bottom-btn"
+                      href="https://api.whatsapp.com/send/?phone=9886704910&text=Hello"
+                    >
                       Book Appointment
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -222,6 +229,39 @@ const HeaderTwo = () => {
       {/* side bar start */}
       <Sidebar isActive={isActive} setIsActive={setIsActive} />
       {/* side bar end */}
+      <div
+        style={{
+          backgroundColor: "rgba(255, 255, 255, 0.45)",
+          position: "absolute",
+          zIndex: "600",
+          width: "100%",
+        }}
+        className=""
+      >
+        <div className="row">
+          <div className="">
+            <div
+              style={{ paddingTop: "8px", overflow: "hidden" }}
+              className="marquee-container"
+            >
+              <b className="marquee-text">
+                <marquee behavior="scroll" direction="left">
+                  <img
+                    style={{
+                      width: "14px",
+                      marginBottom: "4px",
+                      marginRight: "8px",
+                    }}
+                    src="assets/photo/updated.png"
+                    alt=""
+                  />
+                  All insurance accepted (cashless network hospitals).
+                </marquee>
+              </b>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

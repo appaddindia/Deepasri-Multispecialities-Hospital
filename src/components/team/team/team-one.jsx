@@ -11,7 +11,7 @@ const TeamOne = () => {
       <HeaderTwo />
       <BannerTeamOne />
       <TeamArea />
-      <DirectContactUs />
+      {/* <DirectContactUs /> */}
       <FooterFour />
     </>
   );

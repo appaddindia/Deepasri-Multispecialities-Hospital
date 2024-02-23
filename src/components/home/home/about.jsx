@@ -78,7 +78,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-7 col-lg-12">
+            <div className="col-xl-7 col-lg-12 healmet">
               <div
                 className="tp-about__content pt-50 ml-60 mb-00 wow fadeInRight"
                 data-wow-delay=".4s"

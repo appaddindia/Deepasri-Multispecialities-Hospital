@@ -33,12 +33,14 @@ function Mobilelinks() {
                 }}
                 className="tp-btn-second"
               >
-                <img
-                  style={{ width: "24px", paddingBottom: "6px" }}
-                  src="assets/photo/whatsapp.png"
-                  alt=""
-                />
-                Whatsapp Us
+                <div>
+                  <img
+                    style={{ width: "24px", paddingBottom: "6px" }}
+                    src="assets/photo/whatsapp.png"
+                    alt=""
+                  />
+                </div>
+                Whatsapp<br></br> Us
               </a>
             </div>
           </div>
@@ -58,15 +60,18 @@ function Mobilelinks() {
                   padding: "10px 8px",
                   marginTop: "0px",
                   fontSize: "8px",
+                  backgroundColor: "#0e63ff",
                 }}
                 className="tp-btn-second"
               >
-                <img
-                  style={{ width: "24px", paddingBottom: "6px" }}
-                  src="assets/photo/telephone (1).png"
-                  alt=""
-                />
-                Whatsapp Us
+                <div>
+                  <img
+                    style={{ width: "24px", paddingBottom: "6px" }}
+                    src="assets/photo/telephone (1).png"
+                    alt=""
+                  />
+                </div>
+                Call<br></br> Us
               </a>
             </div>
           </div>
@@ -86,15 +91,18 @@ function Mobilelinks() {
                   padding: "10px 8px",
                   marginTop: "0px",
                   fontSize: "8px",
+                  backgroundColor: "#0080ff",
                 }}
                 className="tp-btn-second"
               >
-                <img
-                  style={{ width: "24px", paddingBottom: "6px" }}
-                  src="assets/photo/schedule.png"
-                  alt=""
-                />
-                Whatsapp Us
+                <div>
+                  <img
+                    style={{ width: "24px", paddingBottom: "6px" }}
+                    src="assets/photo/schedule.png"
+                    alt=""
+                  />
+                </div>
+                Appt<br></br> Booking
               </a>
             </div>
           </div>
@@ -114,15 +122,18 @@ function Mobilelinks() {
                   padding: "10px 8px",
                   marginTop: "0px",
                   fontSize: "8px",
+                  backgroundColor: "#ff0080",
                 }}
                 className="tp-btn-second"
               >
-                <img
-                  style={{ width: "24px", paddingBottom: "6px" }}
-                  src="assets/photo/location.png"
-                  alt=""
-                />
-                Whatsapp Us
+                <div>
+                  <img
+                    style={{ width: "24px", paddingBottom: "6px" }}
+                    src="assets/photo/location.png"
+                    alt=""
+                  />
+                </div>
+                Locate<br></br>Here
               </a>
             </div>
           </div>

@@ -53,12 +53,24 @@
     padding-top: 10px;
     background-color: rgba(255, 255, 255, 0.511);
   }
+  .healmet{
+    margin-top: 0px;
+  }
+  .heedk{
+    margin-bottom: 75px;
+  }
   @media (max-width: 768px){
     .displaymob{
       display: block;
     }
   }
   @media (max-width: 992px) {
+    .healmet{
+      margin-top: 130px;
+    }
+    .heedk{
+      margin-bottom: 30px;
+    }
     .topperscreen{
       display: none;
     }
