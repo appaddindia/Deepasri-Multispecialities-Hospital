@@ -238,14 +238,18 @@ const HeaderTwo = () => {
         }}
         className=""
       >
-        <div className="row">
+        <div style={{ width: "100%" }} className="">
           <div className="">
             <div
               style={{ paddingTop: "8px", overflow: "hidden" }}
               className="marquee-container"
             >
               <b className="marquee-text">
-                <marquee behavior="scroll" direction="left">
+                <marquee
+                  style={{ with: "100%" }}
+                  behavior="scroll"
+                  direction="left"
+                >
                   <img
                     style={{
                       width: "14px",

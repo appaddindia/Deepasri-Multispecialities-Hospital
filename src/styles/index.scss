@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
   }
+  .pt-banu-asx{
+    padding-top: 100px;
+  }
   .bodestes{
     text-align: left;
   }
@@ -67,6 +70,9 @@
   @media (max-width: 992px) {
     .healmet{
       margin-top: 130px;
+    }
+    .pt-banu-asx{
+      padding-top: 50px;
     }
     .heedk{
       margin-bottom: 30px;

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Mobilelinks() {
@@ -31,6 +32,7 @@ function Mobilelinks() {
                   marginTop: "0px",
                   fontSize: "8px",
                 }}
+                href="https://api.whatsapp.com/send/?phone=9886704910&text=Hello"
                 className="tp-btn-second"
               >
                 <div>
@@ -62,6 +64,7 @@ function Mobilelinks() {
                   fontSize: "8px",
                   backgroundColor: "#0e63ff",
                 }}
+                href="tel:9481787736"
                 className="tp-btn-second"
               >
                 <div>
@@ -85,7 +88,7 @@ function Mobilelinks() {
               }}
               className="cta-btn"
             >
-              <a
+              <Link
                 style={{
                   width: "100%",
                   padding: "10px 8px",
@@ -93,6 +96,7 @@ function Mobilelinks() {
                   fontSize: "8px",
                   backgroundColor: "#0080ff",
                 }}
+                href="/contact"
                 className="tp-btn-second"
               >
                 <div>
@@ -103,7 +107,7 @@ function Mobilelinks() {
                   />
                 </div>
                 Appt<br></br> Booking
-              </a>
+              </Link>
             </div>
           </div>
           <div style={{ padding: "2px" }} className="col-3">
@@ -124,6 +128,7 @@ function Mobilelinks() {
                   fontSize: "8px",
                   backgroundColor: "#ff0080",
                 }}
+                href="https://www.google.com/maps?ll=12.869548,77.58225&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=2913797474766342358"
                 className="tp-btn-second"
               >
                 <div>
