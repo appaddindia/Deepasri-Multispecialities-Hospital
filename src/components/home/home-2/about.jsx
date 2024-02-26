@@ -142,7 +142,6 @@ const About = () => {
                           style={{
                             width: "50%",
                             borderRadius: "50%",
-                            border: "3px solid #0e63ff",
                           }}
                           src={item.icon}
                           alt="team-thumb"
