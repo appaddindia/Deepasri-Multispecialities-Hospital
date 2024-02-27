@@ -485,7 +485,7 @@ const serviceinfo = [
     banner: "/assets/photo/bbbs8.jpg",
     tittle: "Expert Paediatric Care at Deepasri Multispecialities Hospital",
     img: "/assets/photo/sss8.jpg",
-    link: "Paediatrics",
+    link: "/paediatrics",
     icon: "/assets/photo/icon8.png",
     content: (
       <>
