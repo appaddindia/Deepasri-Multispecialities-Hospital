@@ -73,7 +73,7 @@ function Serpostbox({ name, img, tittle, link, service, des }) {
                   <div className="postbox__text mb-20">{des}</div>
                   <div className="postbox__read-more">
                     <a href="tel:9481787736" className="tp-btn">
-                      Book Appoitment
+                      Book Appointment
                     </a>
                   </div>
                 </div>

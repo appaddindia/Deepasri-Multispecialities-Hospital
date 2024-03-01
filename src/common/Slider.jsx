@@ -4,6 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const banner = [
   {
+    img1: "/assets/photo/banner5.png",
+    img2: "/assets/photo/mob5.png",
+  },
+  {
     img1: "/assets/photo/banner2.png",
     img2: "/assets/photo/mob2.png",
   },
@@ -11,13 +15,41 @@ const banner = [
     img1: "/assets/photo/banner3.png",
     img2: "/assets/photo/mob3.png",
   },
+  // {
+  //   img1: "/assets/photo/banner1.png",
+  //   img2: "/assets/photo/mob1.png",
+  // },
+  // {
+  //   img1: "/assets/photo/banner4.png",
+  //   img2: "/assets/photo/mob4.png",
+  // },
   {
-    img1: "/assets/photo/banner1.png",
-    img2: "/assets/photo/mob1.png",
+    img1: "/assets/photo/banner6.png",
+    img2: "/assets/photo/mob6.png",
   },
   {
-    img1: "/assets/photo/banner4.png",
-    img2: "/assets/photo/mob4.png",
+    img1: "/assets/photo/banner7.png",
+    img2: "/assets/photo/mob7.png",
+  },
+  {
+    img1: "/assets/photo/banner8.png",
+    img2: "/assets/photo/mob8.png",
+  },
+  {
+    img1: "/assets/photo/banner9.png",
+    img2: "/assets/photo/mob9.png",
+  },
+  {
+    img1: "/assets/photo/banner10.png",
+    img2: "/assets/photo/mob10.png",
+  },
+  {
+    img1: "/assets/photo/banner11.png",
+    img2: "/assets/photo/mob11.png",
+  },
+  {
+    img1: "/assets/photo/banner12.png",
+    img2: "/assets/photo/mob12.png",
   },
 ];
 

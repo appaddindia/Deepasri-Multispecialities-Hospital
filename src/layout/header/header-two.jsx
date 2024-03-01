@@ -80,7 +80,7 @@ const HeaderTwo = () => {
           <div className="header-menu-box">
             <div className="header-menu-top">
               <div className="row align-items-center">
-                <div className="col-lg-4">
+                <div className="col-lg-5">
                   <div className="header-top-mob">
                     <svg
                       width="14"
@@ -101,10 +101,10 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
                     <span>Deepasri : </span>
-                    <a href="tel:94817 87736"> 94817 87736 </a>
+                    <a href="tel:94817 87736"> 94817 87736 / 98867 04910 </a>
                   </div>
                 </div>
-                <div className="col-lg-8">
+                <div className="col-lg-7">
                   <div className="header-time">
                     <span style={{ fontSize: "14px" }}>
                       <i className="fa-light fa-clock-ten"></i> 24 Hour
@@ -119,14 +119,17 @@ const HeaderTwo = () => {
             </div>
             <div className="header-menu-bottom">
               <div className="row">
-                <div className="col-lg-7">
+                <div
+                  style={{ display: "flex", alignItems: "center" }}
+                  className="col-lg-8"
+                >
                   <div className="main-menu main-menu-second">
                     <nav id="mobile-menu">
                       <NavMenu />
                     </nav>
                   </div>
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-4">
                   <div className="header-cart-order d-flex align-items-center justify-content-end">
                     <div className="header-cart-list  d-flex align-items-center justify-content-end mr-50">
                       <button

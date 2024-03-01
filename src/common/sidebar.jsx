@@ -74,8 +74,11 @@ const Sidebar = ({ isActive, setIsActive }) => {
           <a href="tel:61383766284">
             <i className="fa-solid fa-star"></i>DEEPASRIMH@GMAIL.COM
           </a>
-          <a href="mailto:deepasrimh@gmail.com">
+          <a href="tel:94817 87736">
             <i className="fa-solid fa-star"></i>94817 87736
+          </a>
+          <a href="https://api.whatsapp.com/send/?phone=9886704910&text=Hello">
+            <i className="fa-solid fa-star"></i>98867 04910
           </a>
         </div>
         <div className="tpsideinfo__content-inputarea mb-60 d-none d-xl-block">
