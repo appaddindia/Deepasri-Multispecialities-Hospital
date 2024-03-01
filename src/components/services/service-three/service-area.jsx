@@ -6,11 +6,11 @@ const ServiceArea = () => {
   return (
     <>
       <section
-        className="services-area pt-100 pb-0 grey-bg"
+        className="services-area pt-100 pb-80 grey-bg"
         style={{ backgroundImage: `url(/assets/img/shape/shape-bg-01.png)` }}
       >
         <div className="container">
-          <div className="row align-items-end  mb-45">
+          <div className="row align-items-end  mb-35">
             <div className="col-lg-5 col-md-12 col-12">
               <div className="tp-section">
                 <span className="tp-section__sub-title left-line mb-20">
