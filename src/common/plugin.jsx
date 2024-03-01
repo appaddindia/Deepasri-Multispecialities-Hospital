@@ -50,7 +50,7 @@ function Plugin() {
   //   }, []);
 
   return (
-    <>
+    <body>
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -77,8 +77,7 @@ function Plugin() {
                 eptagmanage.send();
               `,
         }}
-      />
-    </>
+    </body>
   );
 }
 
