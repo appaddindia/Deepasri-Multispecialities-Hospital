@@ -33,7 +33,6 @@ function skincosmetology() {
           }
         })}
         <FooterFour />
-        <Plugin />
 
         <Mobilelinks />
       </Wrapper>

@@ -34,7 +34,6 @@ function pharmacy() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

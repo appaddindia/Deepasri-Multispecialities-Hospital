@@ -34,7 +34,6 @@ function orthopaedics() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

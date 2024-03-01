@@ -34,7 +34,6 @@ function laparoscopy() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

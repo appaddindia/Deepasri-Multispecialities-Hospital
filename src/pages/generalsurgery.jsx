@@ -34,7 +34,6 @@ function generalsurgery() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

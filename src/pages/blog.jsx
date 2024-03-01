@@ -11,7 +11,6 @@ const index = () => {
       <SEO pageTitle="Blog" />
       <Blog />
       <Mobilelinks />
-      <Plugin />
     </Wrapper>
   );
 };

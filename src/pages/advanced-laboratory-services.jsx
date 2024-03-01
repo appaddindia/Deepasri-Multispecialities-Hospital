@@ -35,7 +35,6 @@ function advancedlaboratoryservices() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

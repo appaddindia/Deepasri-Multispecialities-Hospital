@@ -35,7 +35,6 @@ function psychiatry() {
         <FooterFour />
 
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

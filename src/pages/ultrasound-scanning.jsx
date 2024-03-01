@@ -34,7 +34,6 @@ function ultrasoundscanning() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

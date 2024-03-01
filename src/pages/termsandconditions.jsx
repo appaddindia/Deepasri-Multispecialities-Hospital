@@ -18,7 +18,6 @@ function termsandconditions() {
       <Conditions />
       <FooterFour />
       <Mobilelinks />
-      <Plugin />
     </Wrapper>
   );
 }

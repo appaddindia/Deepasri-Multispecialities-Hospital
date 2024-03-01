@@ -34,7 +34,6 @@ function inpatientservices() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

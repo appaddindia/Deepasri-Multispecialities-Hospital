@@ -34,7 +34,6 @@ function ophthalmology() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

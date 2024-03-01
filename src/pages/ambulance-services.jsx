@@ -34,7 +34,6 @@ function ambulanceservices() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

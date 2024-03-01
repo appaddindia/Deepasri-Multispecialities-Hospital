@@ -12,7 +12,6 @@ const index = () => {
       <Research />
 
       <Mobilelinks />
-      <Plugin />
     </Wrapper>
   );
 };

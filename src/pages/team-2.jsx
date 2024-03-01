@@ -9,7 +9,6 @@ const index = () => {
     <Wrapper>
       <SEO pageTitle="Team 2" />
       <TeamTwo />
-      <Plugin />
     </Wrapper>
   );
 };

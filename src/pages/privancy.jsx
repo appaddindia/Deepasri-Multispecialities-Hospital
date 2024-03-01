@@ -18,7 +18,6 @@ function Privancy() {
       <Terms />
       <FooterFour />
       <Mobilelinks />
-      <Plugin />
     </Wrapper>
   );
 }

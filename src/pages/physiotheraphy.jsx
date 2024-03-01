@@ -34,7 +34,6 @@ function physiotheraphy() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

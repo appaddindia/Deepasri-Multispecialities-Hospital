@@ -11,7 +11,6 @@ function gallery() {
       <SEO pageTitle="Research" />
       <Research />
       <Mobilelinks />
-      <Plugin />
     </Wrapper>
   );
 }

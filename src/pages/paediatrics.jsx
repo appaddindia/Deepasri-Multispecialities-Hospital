@@ -34,7 +34,6 @@ function paediatrics() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

@@ -34,7 +34,6 @@ function surgicalcenter() {
         })}
         <FooterFour />
         <Mobilelinks />
-        <Plugin />
       </Wrapper>
     </>
   );

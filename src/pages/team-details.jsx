@@ -12,7 +12,6 @@ const index = () => {
       <TeamDetails />
 
       <Mobilelinks />
-      <Plugin />
     </Wrapper>
   );
 };

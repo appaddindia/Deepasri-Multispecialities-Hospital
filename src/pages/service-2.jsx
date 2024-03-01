@@ -12,7 +12,6 @@ const index = () => {
       <ServiceTwo />
 
       <Mobilelinks />
-      <Plugin />
     </Wrapper>
   );
 };

@@ -10,7 +10,6 @@ const index = () => {
     <Wrapper>
       <SEO pageTitle="Department" />
       <ServiceOne />
-      <Plugin />
 
       <Mobilelinks />
     </Wrapper>
