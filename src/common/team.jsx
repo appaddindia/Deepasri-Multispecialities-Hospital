@@ -85,7 +85,7 @@ const Team = () => {
                       </div>
                       <div className="tp-team__content">
                         <h4 className="tp-team__title mb-15">
-                          <Link href="/team-details">{item.name}</Link>
+                          <Link href="/">{item.name}</Link>
                         </h4>
                         {/* <span className="tp-team__position mb-0">
                           {item.title}

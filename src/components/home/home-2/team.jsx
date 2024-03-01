@@ -129,16 +129,16 @@ const Team = ({ bg_img }) => {
                         </div>
                         <div className="team-item__content">
                           <h5 className="team-item__title mb-15">
-                            <Link href="/team-details">{item.name}</Link>
+                            {item.name}
                           </h5>
                           <span>{item.title}</span>
-                          <div className="team-item__social-info">
+                          {/* <div className="team-item__social-info">
                             {item.social_links.map((l, i) => (
                               <a key={i} href={l.link} target={l.target}>
                                 <i className={l.icon}></i>
                               </a>
                             ))}
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
