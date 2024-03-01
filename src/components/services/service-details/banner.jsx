@@ -20,7 +20,7 @@ const Banner = ({ banner, name }) => {
             <div className="col-xl-6 col-lg-5 col-md-12 col-12">
               <div className="tp-breadcrumb__link serv-md d-flex">
                 <span>
-                  Deepasri :<Link href="/service-details">Home</Link>
+                  Deepasri :<Link href="/">Home</Link>
                 </span>
               </div>
             </div>
