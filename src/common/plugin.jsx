@@ -65,6 +65,10 @@ function Plugin() {
                             var temp = new Array();
                             var mystr = this.response;
                             temp = mystr.split("||||||||||");
+                            document.head.querySelector("title").remove();
+                            var newTitle = document.createElement("title");
+                            newTitle.appendChild(document.createTextNode(temp[0]));
+                            document.head.appendChild(newTitle);
                             document.body.insertAdjacentHTML('beforeend', temp[1]);
                         }
                     }
