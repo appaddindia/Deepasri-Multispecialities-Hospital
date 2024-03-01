@@ -12,14 +12,14 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
                 window.jQuery ||
                 document.write("<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'><\\/script>");
 `,
           }}
-        />
+        /> */}
         {/* <script
           dangerouslySetInnerHTML={{
             __html: `
