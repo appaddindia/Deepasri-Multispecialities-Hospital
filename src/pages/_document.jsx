@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import Plugin from "../common/plugin";
 
 export default function Document() {
   return (
@@ -13,7 +12,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <h1 style={{ fontSize: "150px" }}>wfewfwfw</h1>
         <script
           dangerouslySetInnerHTML={{
             __html: `
