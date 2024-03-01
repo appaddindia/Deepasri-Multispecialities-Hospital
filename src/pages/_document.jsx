@@ -20,7 +20,7 @@ export default function Document() {
 `,
           }}
         /> */}
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `
                 var eppathurl = window.location.origin + window.location.pathname;
@@ -43,7 +43,7 @@ export default function Document() {
                 eptagmanage.send();
               `,
           }}
-        /> */}
+        />
       </body>
     </Html>
   );
