@@ -50,7 +50,7 @@ function Plugin() {
   //   }, []);
 
   return (
-    <div>
+    <>
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -78,7 +78,7 @@ function Plugin() {
               `,
         }}
       />
-    </div>
+    </>
   );
 }
 
