@@ -25,19 +25,17 @@ const TeamArea = () => {
                   data-wow-delay=".6s"
                 >
                   <div className="tp-team__thumb fix">
-                    <Link href="#">
+                    <>
                       <img src={item.img} alt="team-thumb" />
-                    </Link>
+                    </>
                   </div>
                   <div className="tp-team__content">
-                    <h4 className="tp-team__title mb-15">
-                      <Link href="/team-details">{item.name}</Link>
-                    </h4>
+                    <h4 className="tp-team__title mb-15">{item.name}</h4>
                     <span className="tp-team__position mb-30">
                       {item.title}
                     </span>
                     <p>{item.des} </p>
-                    <div className="tp-team__social">
+                    {/* <div className="tp-team__social">
                       {item.social_links.map((link, i) => (
                         <Link
                           key={i}
@@ -48,7 +46,7 @@ const TeamArea = () => {
                           <i className={link.icon}></i>
                         </Link>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
