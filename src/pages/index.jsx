@@ -7,16 +7,20 @@ import Home from "../components/home/home/home";
 import HomeTwo from "../components/home/home-2/hometwo";
 import LayoutTwo from "../layout/layout-2";
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 
 const index = () => {
   return (
-    <Wrapper>
-      <LayoutTwo>
-        <SEO pageTitle="Home Two" />
-        <HomeTwo />
-        <Mobilelinks />
-      </LayoutTwo>
-    </Wrapper>
+    <>
+      <Wrapper>
+        <LayoutTwo>
+          <SEO pageTitle="Home Two" />
+          <HomeTwo />
+          <Mobilelinks />
+        </LayoutTwo>
+      </Wrapper>
+      <Plugin />
+    </>
   );
 };
 

@@ -1,4 +1,5 @@
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 import ProjectDetails from "../components/project-details";
 import SEO from "../components/seo";
 import Wrapper from "../layout/wrapper";
@@ -10,6 +11,7 @@ const index = () => {
       <SEO pageTitle="Project Details" />
       <ProjectDetails />
       <Mobilelinks />
+      <Plugin />
     </Wrapper>
   );
 };

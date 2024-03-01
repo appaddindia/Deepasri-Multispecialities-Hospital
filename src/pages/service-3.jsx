@@ -1,4 +1,5 @@
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 import SEO from "../components/seo";
 import ServiceThree from "../components/services/service-three";
 import Wrapper from "../layout/wrapper";
@@ -11,6 +12,7 @@ const index = () => {
       <ServiceThree />
 
       <Mobilelinks />
+      <Plugin />
     </Wrapper>
   );
 };

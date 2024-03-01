@@ -7,6 +7,7 @@ import HeaderTwo from "../layout/header/header-two";
 import Wrapper from "../layout/wrapper";
 import React from "react";
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 
 function ent() {
   return (
@@ -33,6 +34,7 @@ function ent() {
         })}
         <FooterFour />
         <Mobilelinks />
+        <Plugin />
       </Wrapper>
     </>
   );

@@ -7,6 +7,7 @@ import FooterFour from "../layout/footer/footer-4";
 import Terms from "../components/contact/terms";
 import Conditions from "../components/contact/conditions";
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 
 function termsandconditions() {
   return (
@@ -17,6 +18,7 @@ function termsandconditions() {
       <Conditions />
       <FooterFour />
       <Mobilelinks />
+      <Plugin />
     </Wrapper>
   );
 }

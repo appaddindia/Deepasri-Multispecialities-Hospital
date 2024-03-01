@@ -1,4 +1,5 @@
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 import Serpostbox from "../components/blog/ser-post-box";
 import SEO from "../components/seo";
 import Banner from "../components/services/service-details/banner";
@@ -32,6 +33,7 @@ function obg() {
         })}
         <FooterFour />
         <Mobilelinks />
+        <Plugin />
       </Wrapper>
     </>
   );

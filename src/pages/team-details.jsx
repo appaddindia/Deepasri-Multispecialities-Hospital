@@ -3,6 +3,7 @@ import TeamDetails from "../components/team/team-details/team-details";
 import Wrapper from "../layout/wrapper";
 import React from "react";
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 
 const index = () => {
   return (
@@ -11,6 +12,7 @@ const index = () => {
       <TeamDetails />
 
       <Mobilelinks />
+      <Plugin />
     </Wrapper>
   );
 };

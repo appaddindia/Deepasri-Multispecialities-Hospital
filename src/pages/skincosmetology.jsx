@@ -7,6 +7,7 @@ import HeaderTwo from "../layout/header/header-two";
 import Wrapper from "../layout/wrapper";
 import React from "react";
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 
 function skincosmetology() {
   return (
@@ -32,6 +33,7 @@ function skincosmetology() {
           }
         })}
         <FooterFour />
+        <Plugin />
 
         <Mobilelinks />
       </Wrapper>

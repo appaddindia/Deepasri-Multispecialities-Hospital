@@ -7,6 +7,7 @@ import FooterFour from "../layout/footer/footer-4";
 import Terms from "../components/contact/terms";
 import Banner from "../components/services/service-details/banner";
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 
 function Privancy() {
   return (
@@ -17,6 +18,7 @@ function Privancy() {
       <Terms />
       <FooterFour />
       <Mobilelinks />
+      <Plugin />
     </Wrapper>
   );
 }

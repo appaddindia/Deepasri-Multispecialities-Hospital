@@ -1,4 +1,5 @@
 import Mobilelinks from "../common/mobilelinks";
+import Plugin from "../common/plugin";
 import Research from "../components/research/research";
 import SEO from "../components/seo";
 import Wrapper from "../layout/wrapper";
@@ -11,6 +12,7 @@ const index = () => {
       <Research />
 
       <Mobilelinks />
+      <Plugin />
     </Wrapper>
   );
 };

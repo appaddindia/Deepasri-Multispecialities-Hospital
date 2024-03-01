@@ -1,3 +1,4 @@
+import Plugin from "../common/plugin";
 import SEO from "../components/seo";
 import Shop from "../components/shop";
 import Wrapper from "../layout/wrapper";
@@ -8,6 +9,7 @@ const index = () => {
     <Wrapper>
       <SEO pageTitle="Shope" />
       <Shop />
+      <Plugin />
     </Wrapper>
   );
 };

@@ -11,7 +11,6 @@ const Wrapper = ({ children }) => {
   }, []);
   return (
     <>
-      <Plugin />
       {children}
       <ScrollToTop />
     </>
