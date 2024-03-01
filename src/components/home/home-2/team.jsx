@@ -116,7 +116,7 @@ const Team = ({ bg_img }) => {
                   <SwiperSlide key={item.id}>
                     <div className="swiper-slide">
                       <div className="team-item mb-30">
-                        <div className="team-item__thumb mb-30">
+                        <div className="team-item__thumb mb-45">
                           <img
                             style={{
                               width: "60%",
