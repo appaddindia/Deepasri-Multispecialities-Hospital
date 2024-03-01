@@ -14,7 +14,7 @@ const ServiceArea = () => {
             <div className="col-lg-5 col-md-12 col-12">
               <div className="tp-section">
                 <span className="tp-section__sub-title left-line mb-20">
-                  our Services
+                  our DEPARTMENTs
                 </span>
                 <h3
                   style={{ fontSize: "28px" }}
