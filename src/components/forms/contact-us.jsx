@@ -28,7 +28,10 @@ const ContactUs = () => {
     data.toemail = ["vinayak@appaddindia.com", "deepasrimh@gmail.com"];
     data.toke = "1dytfchtgfghvyhvvhvh";
     try {
-      const response = await axios.post("http://localhost:9001/hospital", data);
+      const response = await axios.post(
+        "https://emailer-phi.vercel.app/hospital",
+        data
+      );
       data.name = "";
       alert("We will contact you soon.");
     } catch (error) {
