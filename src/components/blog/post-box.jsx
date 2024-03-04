@@ -134,7 +134,7 @@ const PostBox = () => {
                     >
                       <div className="postbox__meta mb-20">
                         <span>
-                          <Link href="/blog-details">
+                          <Link href="/blog">
                             <i className="fa-regular fa-user"></i>
                             {article.user}
                           </Link>
@@ -143,7 +143,7 @@ const PostBox = () => {
                           <i className="fa-regular fa-clock"></i> {article.date}
                         </span>
                         <span>
-                          <Link href="/about">
+                          <Link href="/blog">
                             <i className="fa-regular fa-message-dots"></i>
                             {article.comments}
                           </Link>

@@ -46,7 +46,7 @@ const RecentPost = () => {
                     style={{
                       width: "100px",
                     }}
-                    href="/blog-details"
+                    href={`#${item.id}blog`}
                   >
                     <img
                       style={{ width: "100px", aspectRatio: "5/4" }}

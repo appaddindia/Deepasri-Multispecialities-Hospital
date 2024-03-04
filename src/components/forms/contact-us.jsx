@@ -4,7 +4,11 @@ const ContactUs = () => {
   return (
     <>
       <div className="contactform__list mb-60">
-        <form onSubmit={e => e.preventDefault()} id="contact-form" method="post">
+        <form
+          onSubmit={(e) => e.preventDefault()}
+          id="contact-form"
+          method="post"
+        >
           <div className="row">
             <div className="col-lg-6">
               <div className="contactform__input mb-30">
@@ -34,7 +38,7 @@ const ContactUs = () => {
                 <input
                   name="website"
                   type="text"
-                  placeholder="Enter your website"
+                  placeholder="Enter the department name"
                 />
               </div>
             </div>
